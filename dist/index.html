@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- <head> -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./output.css" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+</style>
+<link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+<link href="../src/input.css" rel="stylesheet">
+<title>Leonardite</title>
+</head>
+
+<body class="bg-white">
+    <section id="banner"
+        class=" flex flex-col justify-between items-center bg-sun-flower h-screen w-screen overscroll-x-none overflow-hidden">
+        <!-- <svg alt="logo"></svg> -->
+        <img src="../src/assets/images/logo.png" alt="logo" class="relative top-32 px-8">
+        <img class="border-[12px] border-solid rounded-tl-full rounded-tr-full border-white w-full h-auto -mb-3"
+            src="../src/assets/images/hero_field.png" alt="hero_field">
+    </section>
+    <section id="about" class="text-gray-700 mt-10 bg-white h-auto w-full flex flex-col items-center justify-between">
+        <div class="flex items-center justify-between h-[30%] z-10 px-4">
+            <div class="flex flex-col items-start justify-center">
+                <h2 class="text-gray-500 text-4xl font-semibold pb-3">LEONARDITE</h2>
+                <p class="pb-2 font-semibold text-black">О нашем продукте</p>
+                <img src="../src/assets/images/corn.png" alt="" class="rounded-lg lg:max-w-[500px]">
+            </div>
+            <div class="relative right-6 top-5 text-2xl font-extrabold text-gray-700">
+                <p>Leonardite - это прошлое и будущее земли</p>
+            </div>
+        </div>
+        <div class="bg-honey-yellow h-[70%] pt-20 relative bottom-14 px-8 pb-10">
+            <p class="font-medium">Leonardite — это природное соединение, содержащееся в богатой органической почве и
+                образующееся в
+                результате разложения растительных и животных веществ. Это один из компонентов гуминовой кислоты,
+                который жизненно важен для здоровья почвы. Фульвовая кислота известна своей способностью хелатировать
+                (связывать) минералы и питательные вещества, делая их более доступными и усваиваемыми для растений. Он
+                улучшает усвоение питательных веществ, стимулирует рост растений и улучшает структуру почвы. Благодаря
+                небольшому молекулярному размеру он легко проникает в клетки растений, что делает его эффективной
+                добавкой в сельском хозяйстве и садоводстве, способствующей здоровому и энергичному росту растений.
+            </p>
+            <div class="flex pt-5 flex-wrap gap-4">
+                <div class="flex flex-col items-center gap-3 justify-center">
+                    <div class="flex gap-2 items-center">
+                        <div class="bg-white w-[48px] h-[48px] rounded-full flex items-center justify-center">
+                            <img src="../src/assets/images/icons/eye.svg" alt="">
+                        </div>
+                        <h3 id="company-goal" class="text-2xl font-semibold">
+                            Цель продукта
+                        </h3>
+                    </div>
+                    <p>
+                        Мы разрабатываем решения, которые повышают прибыльность и снижают риски на всех этапах — от поля
+                        до теплицы как для открытого так и для закрытого грунта. С помощью 100% органического состава мы
+                        оживляем почвы, растения, производителей и потребителей с помощью мощного инструмента: силы
+                        природы LEONARDITE
+                    </p>
+                </div>
+                <div class="flex flex-col items-center gap-3">
+                    <div class="flex gap-2 items-center">
+                        <div class="bg-white w-[48px] h-[48px] rounded-full flex items-center justify-center">
+                            <img src="../src/assets/images/icons/goal.svg" alt="">
+                        </div>
+                        <h3 id="company-goal" class="text-2xl font-semibold">
+                            Цель компании
+                        </h3>
+                    </div>
+                    <p>
+                        Ваш успех – это наш успех. Мы стремимся превзойти ожидания клиентов в каждом взаимодействии. У
+                        нас уникальная и гибкая система расчета и оплаты, мы имеем опыт сотрудничества с зарубежными
+                        компаниями. Мы развиваемся и
+                        иследуем все передовые технологии в агропромышленой сфере
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="composition" class="w-full h-auto">
+        <p class="px-8 pb-8">«LEONARDITE был создан, чтобы принести биологические решения нового поколения для улучшения
+            сельского
+            хозяйства. Наше органическое удобрение дополнит и улучшит любую программу производителей, для любой культуры
+            и в любых условиях».
+        </p>
+        <div class="flex flex-wrap items-center justify-center">
+            <div class="flex flex-col justify-between items-center bg-sun-flower px-8">
+                <img src="../src/assets/images/hands.png" alt="">
+                <div class="flex flex-col justify-between items-center">
+                    <h5 class="py-5 text-2xl font-semibold text-black">Почему выбирают LEONARDITE</h5>
+                    <ul>
+                        <li>Получение сертификации по органическим стандартам</li>
+                        <li>Имея доступ к нашим собственным месторождениям леонардита, мы обеспечиваем высочайшее и
+                            стабильное качество нашей гуматной продукции.</li>
+                        <li>100% натуральный органический состав</li>
+                        <li>Не имеет побочных действий и легко совмещается со всеми видами удобрений</li>
+                        <li>Снижает побочные действия химических удобрений</li>
+                        <li>Нормализует содержание соли в почве</li>
+                        <li>Повышает удержание влаги в любом грунте</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-lg font-medium p-8">
+                <table>
+                    <tr>
+                        <td>Гуминовые кислоты</td>
+                        <td>60,1 %</td>
+                    </tr>
+                    <tr>
+                        <td>Фульвовые кислоты</td>
+                        <td>25,7 %</td>
+                    </tr>
+                    <tr>
+                        <td>Mg.Магний</td>
+                        <td>680 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>Ca.Кальций</td>
+                        <td>12400 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>Na.Натрий</td>
+                        <td>32900 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>B.Бор</td>
+                        <td>46 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>Fe.Железо</td>
+                        <td>20000 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>Mn.Марганец</td>
+                        <td>11,0 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>Mo.Молибден</td>
+                        <td>1890 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>Zn.Цинк</td>
+                        <td>61 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>Cu.Медь</td>
+                        <td>45 (мг/кг)</td>
+                    </tr>
+                    <tr>
+                        <td>pH.Водородный
+                            показатель</td>
+                        <td>9,8</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center px-8">
+            <div class="bg-honey-gray text-gray-800 text-center rounded-md min-w-[370px] p-5">
+                <h6 class="pt-2 text-2xl font-semibold ">Богатый органический состав</h6>
+                <div class="flex justify-between items-center">
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <p class="font-bold text-4xl">60,1</p>
+                            <p class="text-gray-500 pt-1">Гуминовые кислоты</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-4xl">20000</p>
+                            <p class="text-gray-500 pt-1">Железо</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-4xl">25,7</p>
+                            <p class="text-gray-500 pt-1">Фульвовые кислоты</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <p class="font-bold text-4xl">32900</p>
+                            <p class="text-gray-500 pt-1">Натрий</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-4xl">9.8</p>
+                            <p class="text-gray-500 pt-1">pH Водород</p>
+                        </div>
+                        <div>
+                            <p class="font-bold text-4xl">12400</p>
+                            <p class="text-gray-500 pt-1">Кальций</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <h3 class="px-8 pt-2 text-start font-bold text-4xl text-gray-700">Наши продукты</h3>
+        <div class="slider single-item">
+            <div class="transition-all">
+                <div class="bg-white rounded-md z-10 relative top-10 h-auto w-[200px] m-auto p-4">
+                    <img src="../src/assets/images/leonardite-1.png" alt="product-1"
+                        class="border-4 border-black border-solid rounded-md">
+                </div>
+                <div class="bg-honey-yellow h-auto w-full flex flex-col items-center justify-center pt-14">
+                    <div class="bg-white h-auto w-[300px] p-2 text-gray-700 text-center rounded-sm">
+                        <h6 class="font-semibold text-3xl">Leonardite <span class="text-xl font-bold">концентрат</span>
+                        </h6>
+                        <p class="pt-3">Это жидкая форма гуминовых и фульвовых кислот.
+                            Высококачественный стимулятор растений и кондиционер для почвы, который можно применять в
+                            ландшафте и саду, а также для всех сельскохозяйственных и садовых растений.
+
+                        </p>
+                    </div>
+                    <div class="w-[300px] p-2 text-center">
+                        <p>
+                            Преимущество:
+                            Листовое применение:
+                            Стимулировать рост растений (увеличение производства биомассы)
+                            Увеличивает урожайность и улучшает качество растений.
+                            Улучшить поглощение питательных веществ через листья и корни.
+                            Повышение эффективности пестицидов
+
+                            Применение в почве:
+                            Улучшить структуру почвы
+                            Уменьшите потери питательных веществ Улучшить поглощение питательных веществ корневой
+                            системой.
+                            Способствовать развитию корней Повышение микробиологической активности почвы
+                            Увеличение способности удерживать воду и катионного обмена.
+                            <br>
+                            Цена : <br>
+                            1Л - 45.000 сум
+                            <br>
+                            20Л - 800.000 сум
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="transition-all">
+                <div class="bg-white z-10 relative top-10 h-auto w-[200px] m-auto p-4 rounded-md">
+                    <img src="../src/assets/images/leonardite-2.png" alt="product-1"
+                        class="border-4 border-black border-solid rounded-md">
+                </div>
+                <div class="bg-orange-300 h-auto w-full flex flex-col items-center justify-center pt-14">
+                    <div class="bg-white h-auto w-[300px] p-2 text-gray-700 text-center rounded-sm">
+                        <h6 class="font-semibold text-3xl">Leonardite <span class="text-xl font-bold">гель</span>
+                        </h6>
+                        <p class="pt-3">Это пастообразная форма гуминовых и фульвовых кислот. Высококачественный
+                            стимулятор растений и кондиционер для почвы, который применяется исключиьельно для полива
+                            почвы по бороздам (т.е арыков) используется как в ландшафте и саду, а также для всех
+                            сельскохозяйственных и садовых растений.
+                        </p>
+                    </div>
+                    <div class="w-[300px] p-2 text-center">
+                        <p>
+                            Преимущество:
+                            Листовое применение:
+                            Стимулировать рост растений (увеличение производства биомассы)
+                            Увеличивает урожайность и улучшает качество растений.
+                            Улучшить поглощение питательных веществ через листья и корни.
+                            Повышение эффективности пестицидов
+
+                            Применение в почве:
+                            Улучшить структуру почвы
+                            Уменьшите потери питательных веществ Улучшить поглощение питательных веществ корневой
+                            системой.
+                            Способствовать развитию корней Повышение микробиологической активности почвы
+                            Увеличение способности удерживать воду и катионного обмена.
+                            <br>
+                            Цена: <br>
+                            3,5кг - 52.500 сум <br>
+                            12кг - 180.000 сум
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="transition-all">
+                <div class="bg-white z-10 relative top-10 h-auto w-[200px] m-auto p-4 rounded-md">
+                    <img src="../src/assets/images/leonardite-3.png" alt="product-1"
+                        class="border-4 border-black border-solid rounded-md">
+                </div>
+                <div class="bg-orange-300 h-auto w-full flex flex-col items-center justify-center pt-14">
+                    <div class="bg-white h-auto w-[300px] p-2 text-gray-700 text-center rounded-sm">
+                        <h6 class="font-semibold text-3xl">Leonardite <span class="text-xl font-bold">пудра</span>
+                        </h6>
+                        <p class="pt-3">Гуминовая кислота и Фульвовая изготовлен из натурального леонардита. Это
+                            отличный кондиционер для почвы, который можно применять в ландшафте и саду, а также для всех
+                            сельскохозяйственных и садовых растений. Его можно смешивать с другими органическими или
+                            химическими удобрениями.
+                        </p>
+                    </div>
+                    <div class="w-[300px] p-2 text-center">
+                        <p>
+                            Преимущество:
+                            Листовое применение:
+                            Стимулировать рост растений (увеличение производства биомассы)
+                            Увеличивает урожайность и улучшает качество растений.
+                            Улучшить поглощение питательных веществ через листья и корни.
+                            Повышение эффективности пестицидов
+
+                            Применение в почве:
+                            Улучшить структуру почвы
+                            Уменьшите потери питательных веществ Улучшить поглощение питательных веществ корневой
+                            системой.
+                            Способствовать развитию корней Повышение микробиологической активности почвы
+                            Увеличение способности удерживать воду и катионного обмена.
+                            <br>
+                            Цена: <br>
+                            1 кг - 150.000 сум
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="usage">
+        <div class="flex items-center justify-between">
+            <div
+                class="bg-[url('../src/assets/images/usage_2.png')] bg-cover bg-no-repeat bg-opacity-20 px-8 lg:bg-none">
+                <h6 class="font-bold text-4xl text-gray-500 pb-4">Способ применения</h6>
+                <strong class="text-xl">Leonardite используется для способов полива:
+                    поверхностный, дождеванием, внутрипочвенный, капельный.
+                </strong>
+                <p class="pt-2">Хлопок и зерновые культуры
+                    Для внутрипочвенного и капельного полива 2 литра Leonardite на 1 тонну воды. Для полива путем
+                    дождевания 4 литра на тонну воды.Использовать каждые 5 дней на протяжении 50 дней
+                    Овощи и Фрукты
+                    Для внутрипочвенного и капельного полива 2 литра Leonardite на 1 тонну воды. Для полива путем
+                    дождевания 4 литра на тонну воды.Использовать каждые 5 дней на протяжении 50 дней
+
+                    Ягоды, малина , клубника, арбуз дыня и т.д.
+                    Для внутрипочвенного и капельного полива 2 литра Leonardite на 1 тонну воды. Для полива путем
+                    дождевания 4 литра на тонну воды. Использовать каждые 5 дней на протяжении 50 дней
+                    Для всех видов деревьев
+                    4 ЛИТРА на тонну воды, поливать каждые 10 дней на постоянной основе.
+
+                    Леонардит можно совмещать с ЛЮБЫМИ ПРЕПАРАТАМИ. Леонардит НЕ ИМЕЕТ ПОБОЧНЫХ ДЕЙСТВИЙ.
+                </p>
+            </div>
+            <img src="../src/assets/images/usage.png" alt="usage" class="hidden lg:block">
+        </div>
+        <div class="p-8">
+            <h6 class="font-bold text-4xl text-gray-500 pb-2">Действие продукта</h6>
+            <p>Современные научные исследования показывают, что плодородие почв в большой степени определяется уровнем
+                содержания в них гуминовых кислот.Наиболее важным свойством гуминовых кислот является их способность к
+                связыванию ионов нерастворимых металлов, их оксидов и гидроксидов и впоследствии к медленному и
+                непрерывному их высвобождению по мере необходимости для питания растений. Благодаря таким своим
+                свойствам гуминовые кислоты оказывают три типа воздействия: физическое, химическое и биологическое
+            </p>
+        </div>
+        <div class="lg:flex items-center justify-between px-8">
+            <div>
+                <strong class="text-2xl">Физическое воздействие</strong>
+                <ul>
+                    <li>Улучшение структуры почвы, вследствие чего предотвращаются высокие потери влаги и питательных
+                        веществ в лёгких и песчаных почвах с одновременным превращением их в плодородные почвы в
+                        результате процессаразложения.
+                    </li>
+                    <li>
+                        Устойчивости к засухе, как результат улучшения способности почвы к влагоудержанию;
+                    </li>
+                    <li>
+                        Предотвращение растрескивания почвы, поверхностного уноса воды и эрозии почвы в результате
+                        формирования коллоидной структуры
+                    </li>
+                    <li>
+                        Придание почве рыхлости и рассыпчатости и тем самым повышение ее аэрации и пригодности к
+                        обработке
+                    </li>
+                    <li>
+                        Потемнение почвы, что способствует лучшему поглощению солнечной энергии.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <strong class="text-2xl">Химическое воздействие</strong>
+                <ul>
+                    <li>
+                        Нейтрализация как кислотных, так и щелочных почв; регулирование величины pH
+                    </li>
+                    <li>
+                        Улучшение и оптимизация усвоения растениями питательных элементов и потребления воды
+                    </li>
+                    <li>
+                        Усиление буферного действия почвы
+                    </li>
+                    <li>
+                        Обогащение почвы необходимыми для роста растений органическими и минеральными веществами
+                    </li>
+                    <li>
+                        Приобретение почвой чрезвычайно высокой катионнообменной способности
+                    </li>
+                    <li>
+                        Переход питательных макро- и микроэлементов в форму, доступную для потребления растениями
+                    </li>
+                    <li>
+                        Увеличение потребления растениями азота
+                    </li>
+                    <li>
+                        Сокращение количества фосфора, вступающего в химическую реакцию с Ca, Fe, Mg и Al, и
+                        высвобождение его в доступной и благоприятной для растений форме
+                    </li>
+                    <li>
+                        Содействие устранению хлороза, возникающего вследствие дефицита железа в организме растений
+                    </li>
+                    <li>
+                        Снижение содержания в почве ядовитых веществ
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <strong class="text-2xl">Биологическое воздействие</strong>
+                <ul>
+                    <li>
+                        Cтимулируют рост и распространение в почве желательных микроорганизмов
+                    </li>
+                    <li>
+                        Cпособствуют усилению природной сопротивляемости растений болезням и насекомым- вредителям
+                    </li>
+                    <li>
+                        Cтимулируют рост корневой системы, особенно в вертикальном направлении и улучшают потребление
+                        ею
+                        питательных веществ
+                    </li>
+                    <li>
+                        Cпособствуют образованию в растениях хлорофила, сахаров и аминокислот, участвующих в
+                        фотосинтезе
+                    </li>
+                    <li>
+                        Увеличивают содержание в организмах растений витаминов и минеральных веществ
+                    </li>
+                    <li>
+                        Вызывают утолщение клеточных оболочек у фруктов и увеличивают сроки их хранения
+                    </li>
+                    <li>
+                        Увеличивают всхожесть и жизнеспособность семян
+                    </li>
+                    <li>
+                        Стимулируют рост растений (формирование большего количества биомассы) путем интенсификации
+                        процесса деления клеток, ускоряя при этом развитие корневой системы и увеличивая содержание в
+                        растениях сухого вещества
+                    </li>
+                    <li>
+                        Повышают качество урожая
+                    </li>
+                    <li>
+                        Улучшает физическое состояние плодов и их питательную ценность
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="certificates" class="pt-4">
+        <div class="slider single-item">
+            <img src="../src/assets/images/certificate_1.jpg" alt="certificate_1">
+            <img src="../src/assets/images/certificate_2.jpg" alt="certificate_2">
+            <img src="../src/assets/images/certificate_3.jpg" alt="certificate_3">
+            <img src="../src/assets/images/certificate_1.jpg" alt="certificate_4">
+        </div>
+    </section>
+    <section id="prices">
+        <div class="flex flex-col items-center">
+            <div class="p-8 w-8/12">
+                <img src="../src/assets/images/logo_dark.png" alt="logo">
+            </div>
+            <div class="flex items-center justify-center px-8">
+                <table>
+                    <th>Наименование</th>
+                    <th>объем</th>
+                    <th>сум</th>
+                    <th>+12%</th>
+                    <th>$</th>
+                    <tr>
+                        <td class="bg-honey-yellow">Leonardite концентрат</td>
+                        <td>1 литр</td>
+                        <td>45.000</td>
+                        <td>50.400</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-yellow">Leonardite концентрат</td>
+                        <td>20 литров</td>
+                        <td>800.000</td>
+                        <td>896.000</td>
+                        <td>71</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-yellow">Leonardite концентрат</td>
+                        <td>1 литр</td>
+                        <td>45.000</td>
+                        <td>50.400</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-yellow">Leonardite гель</td>
+                        <td>3,5 кг</td>
+                        <td>52.500</td>
+                        <td>58.800</td>
+                        <td>4,6</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-yellow">Leonardite гель</td>
+                        <td>12 кг</td>
+                        <td>180.000</td>
+                        <td>201.000</td>
+                        <td>16</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <div class="bg-honey-yellow flex flex-col justify-between items-center mt-20 p-8">
+                <div>
+                    <strong class="text-green-700 pb-2">
+                        ООО «FALAK O’G’ITLARI»
+                    </strong>
+                    <p>
+                        Ts 31711887-01-2022 Ишлаб чикарувчи: ООО «Falak o’g’itlari» <br>
+                        Саклаш муддати: 5йил Саклаш шартлари:
+                        -10/+40 <br>
+                        Манзил: Кибрай тумани, Иссиклик кочаси, 41 уй.ТНВЕД код:3808 93 900 0 <br>
+                        Телефон раками: <a class="text-green-700" href="tel:+998950104554">+998950104554</a> <br>
+                        Ўзбекистонда ишлаб чикарилган
+                    </p>
+                </div>
+                <div class="flex items-center justify-between gap-12 p-8">
+                    <a href="https://t.me/Leonarditeuzb"><img src="../src/assets/images/icons/tg.svg" alt="tg"
+                            class="h-12 w-12"></a>
+                    <a href="https://www.instagram.com/leonardite.uz"><img src="../src/assets/images/icons/inst.svg"
+                            alt="inst" class="h-12 w-12"></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="../slick/slick.min.js"></script>
+    <script src="../src/js/main.js"></script>
+</body>
+
+</html>

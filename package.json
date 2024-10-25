@@ -1,0 +1,14 @@
+{
+  "name": "leonardite_uz",
+  "version": "1.0.0",
+  "description": "Project on JS + Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss build -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "author": "Max",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}

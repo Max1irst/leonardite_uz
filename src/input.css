@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+.slick-prev {
+    z-index: 100;
+    left: 5px
+}
+
+.slick-prev::before {
+    display: block;
+    content: url(../src/assets/images/icons/prev.svg);
+    width: 50px;
+    height: auto;
+    transition: 1s all;
+    opacity: 0.5;
+
+    :hover {
+        opacity: 1;
+    }
+}
+
+.slick-next {
+    right: 30px
+}
+
+.slick-next::before {
+    display: block;
+    content: url(../src/assets/images/icons/next.svg);
+    width: 50px;
+    height: auto;
+    transition: 1s all;
+    opacity: 0.5;
+
+    :hover {
+        opacity: 1;
+    }
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+li::before {
+    content: url(./assets/images/icons/checked.svg);
+    width: 24px;
+    height: 24px;
+}
+
+#composition {
+
+    table,
+    td {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 2px;
+    }
+}
+
+#prices {
+
+    table,
+    th, td {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 4px;
+    }
+    th{
+        background: #FEDC7B;
+    }
+}
