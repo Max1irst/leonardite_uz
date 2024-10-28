@@ -5,17 +5,19 @@
 * {
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
+    overflow-x: hidden;
 }
 
 .slick-prev {
     z-index: 100;
-    left: 5px
+    width: 50px;
+    height: auto;
+    left: 0
 }
 
 .slick-prev::before {
-    display: block;
     content: url(../src/assets/images/icons/prev.svg);
-    width: 50px;
+    width: 40px;
     height: auto;
     transition: 1s all;
     opacity: 0.5;
@@ -26,13 +28,14 @@
 }
 
 .slick-next {
-    right: 30px
+    right: 0;
+    height: auto;
+    width: 50px;
 }
 
 .slick-next::before {
-    display: block;
     content: url(../src/assets/images/icons/next.svg);
-    width: 50px;
+    width: 40px;
     height: auto;
     transition: 1s all;
     opacity: 0.5;
@@ -40,6 +43,12 @@
     :hover {
         opacity: 1;
     }
+}
+
+.slick-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li {
@@ -69,13 +78,15 @@ li::before {
 #prices {
 
     table,
-    th, td {
+    th,
+    td {
         text-align: center;
         border: 1px solid black;
         border-collapse: collapse;
         padding: 4px;
     }
-    th{
+
+    th {
         background: #FEDC7B;
     }
 }
