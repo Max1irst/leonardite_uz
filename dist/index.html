@@ -17,22 +17,28 @@
     <section id="banner"
         class=" flex flex-col justify-between items-center bg-sun-flower h-screen w-screen overscroll-x-none overflow-hidden">
         <!-- <svg alt="logo"></svg> -->
-        <img src="../src/assets/images/logo.png" alt="logo" class="relative top-32 px-8">
-        <img class="border-[12px] border-solid rounded-tl-full rounded-tr-full border-white w-full h-auto -mb-3"
+        <img src="../src/assets/images/logo.png" alt="logo"
+            class="relative top-32 px-8 h-auto w-[400px] sm:w-96 lg:w-[35%]">
+        <img class="border-[12px] border-solid rounded-tl-full rounded-tr-full border-white w-full h-auto -mb-3 md:hidden"
             src="../src/assets/images/hero_field.png" alt="hero_field">
+        <div
+            class="hidden md:block md:bg-[url('../src/assets/images/hero_field_cutted.png')] bg-cover bg-no-repeat bg-center border-[12px] border-solid rounded-tl-full rounded-tr-full border-white w-full h-[40%]">
+        </div>
     </section>
     <section id="about" class="text-gray-700 mt-10 bg-white h-auto w-full flex flex-col items-center justify-between">
-        <div class="flex items-center justify-between h-[30%] z-10 px-4">
+        <div class="flex items-center lg:items-start justify-between z-10 w-full px-8 lg:px-20">
             <div class="flex flex-col items-start justify-center">
-                <h2 class="text-gray-500 text-4xl font-semibold pb-3">LEONARDITE</h2>
-                <p class="pb-2 font-semibold text-black">О нашем продукте</p>
-                <img src="../src/assets/images/corn.png" alt="" class="rounded-lg lg:max-w-[500px]">
+                <h2 class="text-gray-500 text-3xl md:text-4xl lg:text-6xl font-semibold pb-3">LEONARDITE</h2>
+                <p class="pb-2 font-semibold text-black md:text-2xl">О нашем продукте</p>
+                <img src="../src/assets/images/corn.png" alt="corn_field" class="rounded-lg lg:max-w-[600px] md:pt-10">
             </div>
-            <div class="relative right-6 top-5 text-2xl font-extrabold text-gray-700">
-                <p>Leonardite - это прошлое и будущее земли</p>
+            <div
+                class="relative right-2 top-5 text-xl lg:text-4xl font-extrabold text-gray-700 lg:relative lg:top-28 lg:right-20 lg:z-10">
+                <p class="bg-[url(../src/assets/images/quotes.png)] quotes bg-no-repeat bg-left-top pt-5 pl-5">
+                    Leonardite - это прошлое и будущее земли</p>
             </div>
         </div>
-        <div class="bg-honey-yellow h-[70%] pt-20 relative bottom-14 px-8 pb-10">
+        <div class="bg-honey-yellow pt-20 relative bottom-14 px-8 pb-10 w-full lg:px-20">
             <p class="font-medium">Leonardite — это природное соединение, содержащееся в богатой органической почве и
                 образующееся в
                 результате разложения растительных и животных веществ. Это один из компонентов гуминовой кислоты,
@@ -42,8 +48,8 @@
                 небольшому молекулярному размеру он легко проникает в клетки растений, что делает его эффективной
                 добавкой в сельском хозяйстве и садоводстве, способствующей здоровому и энергичному росту растений.
             </p>
-            <div class="flex pt-5 flex-wrap gap-4">
-                <div class="flex flex-col items-center gap-3 justify-center">
+            <div class="flex pt-5 flex-wrap justify-evenly md:flex-nowrap gap-4">
+                <div class="flex flex-col items-center gap-3 justify-center max-w-[400px]">
                     <div class="flex gap-2 items-center">
                         <div class="bg-white w-[48px] h-[48px] rounded-full flex items-center justify-center">
                             <img src="../src/assets/images/icons/eye.svg" alt="">
@@ -52,14 +58,14 @@
                             Цель продукта
                         </h3>
                     </div>
-                    <p>
+                    <p class="md:text-center">
                         Мы разрабатываем решения, которые повышают прибыльность и снижают риски на всех этапах — от поля
                         до теплицы как для открытого так и для закрытого грунта. С помощью 100% органического состава мы
                         оживляем почвы, растения, производителей и потребителей с помощью мощного инструмента: силы
                         природы LEONARDITE
                     </p>
                 </div>
-                <div class="flex flex-col items-center gap-3">
+                <div class="flex flex-col items-center gap-3 max-w-[400px]">
                     <div class="flex gap-2 items-center">
                         <div class="bg-white w-[48px] h-[48px] rounded-full flex items-center justify-center">
                             <img src="../src/assets/images/icons/goal.svg" alt="">
@@ -68,7 +74,7 @@
                             Цель компании
                         </h3>
                     </div>
-                    <p>
+                    <p class="md:text-center">
                         Ваш успех – это наш успех. Мы стремимся превзойти ожидания клиентов в каждом взаимодействии. У
                         нас уникальная и гибкая система расчета и оплаты, мы имеем опыт сотрудничества с зарубежными
                         компаниями. Мы развиваемся и
@@ -80,13 +86,14 @@
         </div>
     </section>
     <section id="composition" class="w-full h-auto">
-        <p class="px-8 pb-8">«LEONARDITE был создан, чтобы принести биологические решения нового поколения для улучшения
+        <p class="px-8 lg:px-20 pb-8 lg:pb-0 lg:max-w-[70%]">«LEONARDITE был создан, чтобы принести биологические решения нового
+            поколения для улучшения
             сельского
             хозяйства. Наше органическое удобрение дополнит и улучшит любую программу производителей, для любой культуры
             и в любых условиях».
         </p>
-        <div class="flex flex-wrap items-center justify-center">
-            <div class="flex flex-col justify-between items-center bg-sun-flower px-8">
+        <div class="flex flex-wrap items-center lg:flex-nowrap justify-evenly gap-5 lg:px-20">
+            <div class="flex flex-col justify-between items-center bg-sun-flower px-8 lg:max-w-[550px] rounded-sm">
                 <img src="../src/assets/images/hands.png" alt="">
                 <div class="flex flex-col justify-between items-center">
                     <h5 class="py-5 text-2xl font-semibold text-black">Почему выбирают LEONARDITE</h5>
@@ -102,7 +109,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="text-lg font-medium p-8">
+            <div class="flex flex-col items-center gap-5 text-lg font-medium p-8 md:text-xl">
                 <table>
                     <tr>
                         <td>Гуминовые кислоты</td>
@@ -154,38 +161,38 @@
                         <td>9,8</td>
                     </tr>
                 </table>
-            </div>
-        </div>
-        <div class="flex flex-col justify-center items-center px-8">
-            <div class="bg-honey-gray text-gray-800 text-center rounded-md min-w-[370px] p-5">
-                <h6 class="pt-2 text-2xl font-semibold ">Богатый органический состав</h6>
-                <div class="flex justify-between items-center">
-                    <div class="flex flex-col gap-4">
-                        <div>
-                            <p class="font-bold text-4xl">60,1</p>
-                            <p class="text-gray-500 pt-1">Гуминовые кислоты</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-4xl">20000</p>
-                            <p class="text-gray-500 pt-1">Железо</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-4xl">25,7</p>
-                            <p class="text-gray-500 pt-1">Фульвовые кислоты</p>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-4">
-                        <div>
-                            <p class="font-bold text-4xl">32900</p>
-                            <p class="text-gray-500 pt-1">Натрий</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-4xl">9.8</p>
-                            <p class="text-gray-500 pt-1">pH Водород</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-4xl">12400</p>
-                            <p class="text-gray-500 pt-1">Кальций</p>
+                <div class="flex flex-col justify-center items-center px-8">
+                    <div class="bg-honey-gray text-gray-800 text-center rounded-md min-w-[370px] p-5">
+                        <h6 class="pt-2 text-2xl font-semibold ">Богатый органический состав</h6>
+                        <div class="flex justify-between items-center">
+                            <div class="flex flex-col gap-4">
+                                <div>
+                                    <p class="font-bold text-4xl">60,1</p>
+                                    <p class="text-gray-500 pt-1">Гуминовые кислоты</p>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-4xl">20000</p>
+                                    <p class="text-gray-500 pt-1">Железо</p>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-4xl">25,7</p>
+                                    <p class="text-gray-500 pt-1">Фульвовые кислоты</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-4">
+                                <div>
+                                    <p class="font-bold text-4xl">32900</p>
+                                    <p class="text-gray-500 pt-1">Натрий</p>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-4xl">9.8</p>
+                                    <p class="text-gray-500 pt-1">pH Водород</p>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-4xl">12400</p>
+                                    <p class="text-gray-500 pt-1">Кальций</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -193,15 +200,15 @@
         </div>
     </section>
     <section id="products">
-        <h3 class="px-8 pt-2 text-start font-bold text-4xl text-gray-700">Наши продукты</h3>
+        <h3 class="px-8 lg:px-20 pt-2 text-start font-bold text-4xl text-gray-700">Наши продукты</h3>
         <div class="slider single-item relative">
             <div class="transition-all">
-                <div class="bg-white rounded-md z-10 relative top-10 h-auto w-[200px] m-auto p-4">
+                <div class="bg-white rounded-md z-10 relative top-10 h-auto w-[200px] lg:w-[300px] m-auto p-4">
                     <img src="../src/assets/images/leonardite-1.png" alt="product-1"
                         class="border-4 border-black border-solid rounded-md">
                 </div>
                 <div
-                    class="bg-honey-yellow min-h-[301px] h-auto w-full flex flex-col items-center justify-center pt-14">
+                    class="bg-honey-yellow min-h-[301px] md: h-auto xl:h-[920px] w-full flex flex-col items-center xl:justify-start justify-center pt-14">
                     <div class="bg-white h-auto w-[300px] p-2 text-gray-700 text-center rounded-sm">
                         <h6 class="font-semibold text-3xl">Leonardite <span class="text-xl font-bold">концентрат</span>
                         </h6>
@@ -209,8 +216,8 @@
                             Это жидкая форма гуминовых и фульвовых кислот.
                         </p>
                     </div>
-                    <div class="w-[300px] p-2 text-center">
-                        <details class="transition-all">
+                    <div class="w-[300px] xl:min-w-[400px] p-2 text-center">
+                        <details class="transition-all xl:hidden">
                             <summary class="text-2xl p-2">
                                 Подробнее
                             </summary>
@@ -235,24 +242,46 @@
                             <br>
                             20Л - 800.000 сум
                         </details>
+                        <p class="hidden xl:block text-center">
+                            Высококачественный стимулятор растений и кондиционер для почвы, который можно применять в
+                            ландшафте и саду, а также для всех сельскохозяйственных и садовых растений. <br>
+                            Преимущество:
+                            Листовое применение:
+                            Стимулировать рост растений (увеличение производства биомассы)
+                            Увеличивает урожайность и улучшает качество растений.
+                            Улучшить поглощение питательных веществ через листья и корни.
+                            Повышение эффективности пестицидов
+
+                            Применение в почве:
+                            Улучшить структуру почвы
+                            Уменьшите потери питательных веществ Улучшить поглощение питательных веществ корневой
+                            системой.
+                            Способствовать развитию корней Повышение микробиологической активности почвы
+                            Увеличение способности удерживать воду и катионного обмена.
+                            <br>
+                            Цена : <br>
+                            1Л - 45.000 сум
+                            <br>
+                            20Л - 800.000 сум
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="transition-all">
-                <div class="bg-white z-10 relative top-10 h-auto w-[200px] m-auto p-4 rounded-md">
+                <div class="bg-white z-10 relative top-10 h-auto w-[200px] lg:w-[300px] m-auto p-4 rounded-md">
                     <img src="../src/assets/images/leonardite-2.png" alt="product-1"
                         class="border-4 border-black border-solid rounded-md">
                 </div>
                 <div
-                    class="bg-honey-yellow min-h-[301px] h-auto w-full flex flex-col items-center justify-center pt-14">
+                    class="bg-honey-yellow min-h-[301px] h-auto xl:h-[920px] w-full flex flex-col items-center justify-center xl:justify-start pt-14">
                     <div class="bg-white h-auto w-[300px] p-2 text-gray-700 text-center rounded-sm">
                         <h6 class="font-semibold text-3xl">Leonardite <span class="text-xl font-bold">гель</span>
                         </h6>
                         <p class="pt-3">Это пастообразная форма гуминовых и фульвовых кислот.
                         </p>
                     </div>
-                    <div class="w-[300px] p-2 text-center">
-                        <details class="transition-all">
+                    <div class="w-[300px] xl:min-w-[400px] p-2 text-center">
+                        <details class="transition-all xl:hidden">
                             <summary class="text-2xl p-2">
                                 Подробнее
                             </summary>
@@ -278,16 +307,39 @@
                             3,5кг - 52.500 сум <br>
                             12кг - 180.000 сум
                         </details>
+                        <p class="hidden xl:block">
+                            Высококачественный
+                            стимулятор растений и кондиционер для почвы, который применяется исключиьельно для полива
+                            почвы по бороздам (т.е арыков) используется как в ландшафте и саду, а также для всех
+                            сельскохозяйственных и садовых растений. <br>
+                            Преимущество:
+                            Листовое применение:
+                            Стимулировать рост растений (увеличение производства биомассы)
+                            Увеличивает урожайность и улучшает качество растений.
+                            Улучшить поглощение питательных веществ через листья и корни.
+                            Повышение эффективности пестицидов
+
+                            Применение в почве:
+                            Улучшить структуру почвы
+                            Уменьшите потери питательных веществ Улучшить поглощение питательных веществ корневой
+                            системой.
+                            Способствовать развитию корней Повышение микробиологической активности почвы
+                            Увеличение способности удерживать воду и катионного обмена.
+                            <br>
+                            Цена: <br>
+                            3,5кг - 52.500 сум <br>
+                            12кг - 180.000 сум
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="transition-all">
-                <div class="bg-white z-10 relative top-10 h-auto w-[200px] m-auto p-4 rounded-md">
+                <div class="bg-white z-10 relative top-10 h-auto w-[200px] lg:w-[300px] m-auto p-4 rounded-md">
                     <img src="../src/assets/images/leonardite-3.png" alt="product-1"
                         class="border-4 border-black border-solid rounded-md">
                 </div>
                 <div
-                    class="bg-honey-yellow min-h-[301px] h-auto w-full flex flex-col items-center justify-center pt-14">
+                    class="bg-honey-yellow min-h-[301px] h-auto xl:h-[920px] w-full flex flex-col items-center justify-center xl:justify-start pt-14">
                     <div class="bg-white h-auto w-[300px] p-2 text-gray-700 text-center rounded-sm">
                         <h6 class="font-semibold text-3xl">Leonardite <span class="text-xl font-bold">пудра</span>
                         </h6>
@@ -295,8 +347,8 @@
                             Гуминовая кислота и Фульвовая изготовлен из натурального леонардита.
                         </p>
                     </div>
-                    <div class="w-[300px] p-2 text-center">
-                        <details class="transition-all">
+                    <div class="w-[300px] xl:min-w-[400px] p-2 text-center">
+                        <details class="transition-all xl:hidden">
                             <summary class="text-2xl p-2">
                                 Подробнее
                             </summary>
@@ -321,6 +373,28 @@
                             Цена: <br>
                             1 кг - 150.000 сум
                         </details>
+                        <p class="hidden xl:block">
+                            Это
+                            отличный кондиционер для почвы, который можно применять в ландшафте и саду, а также для всех
+                            сельскохозяйственных и садовых растений. Его можно смешивать с другими органическими или
+                            химическими удобрениями. <br>
+                            Преимущество:
+                            Листовое применение:
+                            Стимулировать рост растений (увеличение производства биомассы)
+                            Увеличивает урожайность и улучшает качество растений.
+                            Улучшить поглощение питательных веществ через листья и корни.
+                            Повышение эффективности пестицидов
+
+                            Применение в почве:
+                            Улучшить структуру почвы
+                            Уменьшите потери питательных веществ Улучшить поглощение питательных веществ корневой
+                            системой.
+                            Способствовать развитию корней Повышение микробиологической активности почвы
+                            Увеличение способности удерживать воду и катионного обмена.
+                            <br>
+                            Цена: <br>
+                            1 кг - 150.000 сум
+                        </p>
                     </div>
                 </div>
             </div>
@@ -329,8 +403,8 @@
     <section id="usage">
         <div class="flex items-center justify-between">
             <div
-                class="bg-[url('../src/assets/images/usage_2.png')] bg-cover bg-no-repeat bg-opacity-20 px-8 lg:bg-none">
-                <h6 class="font-bold text-4xl text-gray-500 pb-4">Способ применения</h6>
+                class="bg-[url('../src/assets/images/usage_2.png')] md:min-w-[600px] bg-cover bg-no-repeat bg-opacity-20 px-8 lg:px-20 lg:bg-none">
+                <h6 class="font-bold text-4xl text-gray-500 pb-4 md:pt-4">Способ применения</h6>
                 <strong class="text-xl">Leonardite используется для способов полива:
                     поверхностный, дождеванием, внутрипочвенный, капельный.
                 </strong>
@@ -350,9 +424,9 @@
                     Леонардит можно совмещать с ЛЮБЫМИ ПРЕПАРАТАМИ. Леонардит НЕ ИМЕЕТ ПОБОЧНЫХ ДЕЙСТВИЙ.
                 </p>
             </div>
-            <img src="../src/assets/images/usage.png" alt="usage" class="hidden lg:block">
+            <img src="../src/assets/images/usage.png" alt="usage" class="hidden lg:block h-auto lg:min-w-[700px]">
         </div>
-        <div class="p-8">
+        <div class="p-8 lg:px-20">
             <h6 class="font-bold text-4xl text-gray-500 pb-2">Действие продукта</h6>
             <p>Современные научные исследования показывают, что плодородие почв в большой степени определяется уровнем
                 содержания в них гуминовых кислот.Наиболее важным свойством гуминовых кислот является их способность к
@@ -361,8 +435,8 @@
                 свойствам гуминовые кислоты оказывают три типа воздействия: физическое, химическое и биологическое
             </p>
         </div>
-        <div class="lg:flex items-center justify-between px-8">
-            <div>
+        <div class="lg:flex flex-wrap items-center gap-8 justify-between px-8 lg:px-20">
+            <div class = "min-w-[300px] max-w-[70%]">
                 <strong class="text-2xl">Физическое воздействие</strong>
                 <ul>
                     <li>Улучшение структуры почвы, вследствие чего предотвращаются высокие потери влаги и питательных
@@ -385,7 +459,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class = "min-w-[300px] max-w-[70%]">
                 <strong class="text-2xl">Химическое воздействие</strong>
                 <ul>
                     <li>
@@ -421,7 +495,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class = "min-w-[300px] max-w-[70%]">
                 <strong class="text-2xl">Биологическое воздействие</strong>
                 <ul>
                     <li>
@@ -463,20 +537,20 @@
             </div>
         </div>
     </section>
-    <section id="certificates" class="pt-4">
+    <section id="certificates" class="m-8">
         <div class="slider single-item">
-            <img src="../src/assets/images/certificate_1.jpg" alt="certificate_1">
-            <img src="../src/assets/images/certificate_2.jpg" alt="certificate_2">
-            <img src="../src/assets/images/certificate_3.jpg" alt="certificate_3">
-            <img src="../src/assets/images/certificate_1.jpg" alt="certificate_4">
+            <img src="../src/assets/images/certificate_1.jpg" alt="certificate_1" class="px-4">
+            <img src="../src/assets/images/certificate_2.jpg" alt="certificate_2" class="px-4">
+            <img src="../src/assets/images/certificate_3.jpg" alt="certificate_3" class="px-4">
+            <img src="../src/assets/images/certificate_1.jpg" alt="certificate_4" class="px-4">
         </div>
     </section>
     <section id="prices">
         <div class="flex flex-col items-center">
-            <div class="p-8 w-8/12">
+            <div class="p-8">
                 <img src="../src/assets/images/logo_dark.png" alt="logo">
             </div>
-            <div class="flex items-center justify-center px-8">
+            <div class="flex items-center justify-center px-8 text-sm font-medium p-8 md:text-4xl">
                 <table>
                     <th>Наименование</th>
                     <th>объем</th>
@@ -522,7 +596,7 @@
             </div>
         </div>
         <footer>
-            <div class="bg-honey-yellow flex flex-col justify-between items-center mt-20 p-8">
+            <div class="bg-honey-yellow flex flex-col lg:flex-row lg:justify-evenly justify-between items-center mt-20 p-8">
                 <div>
                     <strong class="text-green-700 pb-2">
                         ООО «FALAK O’G’ITLARI»
@@ -536,7 +610,7 @@
                         Ўзбекистонда ишлаб чикарилган
                     </p>
                 </div>
-                <div class="flex items-center justify-between gap-12 p-8">
+                <div class="flex items-center lg:flex-col justify-between gap-12 p-8">
                     <a href="https://t.me/Leonarditeuzb"><img src="../src/assets/images/icons/tg.svg" alt="tg"
                             class="h-12 w-12"></a>
                     <a href="https://www.instagram.com/leonardite.uz"><img src="../src/assets/images/icons/inst.svg"

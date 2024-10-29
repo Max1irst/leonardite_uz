@@ -71,10 +71,13 @@ li::before {
         text-align: center;
         border: 1px solid black;
         border-collapse: collapse;
-        padding: 2px;
+        padding: 8px;
     }
 }
-
+.quotes {
+    background-size: 50px;
+    z-index: -1;
+}
 #prices {
 
     table,
@@ -83,7 +86,7 @@ li::before {
         text-align: center;
         border: 1px solid black;
         border-collapse: collapse;
-        padding: 4px;
+        padding: 20px 12px;
     }
 
     th {
