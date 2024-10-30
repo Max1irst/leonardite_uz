@@ -666,6 +666,10 @@ video {
   width: 100vw;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .min-w-\[300px\] {
   min-width: 300px;
 }
@@ -861,6 +865,11 @@ video {
   padding: 2rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -874,11 +883,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pb-10 {
@@ -1014,12 +1018,6 @@ video {
   transition-duration: 150ms;
 }
 
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 * {
   box-sizing: border-box;
   font-family: "Playfair Display", serif;
@@ -1109,8 +1107,16 @@ li::before {
   }
 }
 
-.hover\:cursor-pointer:hover {
-  cursor: pointer;
+.hover\:w-16:hover {
+  width: 4rem;
+}
+
+.hover\:p-2:hover {
+  padding: 0.5rem;
+}
+
+.hover\:p-1:hover {
+  padding: 0.25rem;
 }
 
 .hover\:text-black:hover {

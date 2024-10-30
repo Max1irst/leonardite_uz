@@ -1,3 +1,4 @@
+AOS.init();
 $(document).ready(function () {
   $('.single-item').slick({
     slidesToShow: 3,
