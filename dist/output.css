@@ -614,10 +614,6 @@ video {
   display: none;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
 .h-\[40\%\] {
   height: 40%;
 }
@@ -638,8 +634,8 @@ video {
   min-height: 301px;
 }
 
-.w-12 {
-  width: 3rem;
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-\[200px\] {
@@ -664,10 +660,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-14 {
-  width: 3.5rem;
 }
 
 .min-w-\[300px\] {
@@ -1105,14 +1097,6 @@ li::before {
   th {
     background: #FDF3D1;
   }
-}
-
-.hover\:w-16:hover {
-  width: 4rem;
-}
-
-.hover\:p-2:hover {
-  padding: 0.5rem;
 }
 
 .hover\:p-1:hover {
