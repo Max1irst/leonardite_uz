@@ -1,4 +1,4 @@
-{
+const languages = {
     "about-h-1": {
         "en": "About the product",
         "ru": "О нашем продукте",
@@ -10,3 +10,5 @@
         "uz": "shunaka de"
     }
 }
+
+export default languages;

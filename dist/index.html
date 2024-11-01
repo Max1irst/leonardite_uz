@@ -17,6 +17,13 @@
 <body class="bg-white">
     <section id="banner"
         class=" flex flex-col justify-between items-center bg-sun-flower h-screen w-screen overscroll-x-none overflow-hidden">
+        <div>
+            <select name="language-switch" id="languageSwitcher">
+                <option value="en">EN</option>
+                <option value="ru">RU</option>
+                <option value="uz">UZ</option>
+            </select>
+        </div>
         <!-- <svg alt="logo"></svg> -->
         <img src="../src/assets/images/logo.png" alt="logo"
             class="relative top-32 px-8 h-auto w-[400px] sm:w-96 lg:w-[35%]" data-aos="fade-up"
@@ -32,13 +39,13 @@
             <div class="flex flex-col items-start justify-center">
                 <h2 class="text-gray-500 text-3xl md:text-4xl lg:text-6xl font-semibold pb-3" data-aos="zoom-out-right"
                     data-aos-duration="2000">LEONARDITE</h2>
-                <p class="pb-2 font-semibold text-black md:text-2xl about-h-1">О нашем продукте</p>
+                <p class="pb-2 font-semibold text-black md:text-2xl lng-about-h-1">О нашем продукте</p>
                 <img src="../src/assets/images/corn.png" alt="corn_field" class="rounded-lg lg:max-w-[600px] md:pt-10">
             </div>
             <div
                 class="relative right-2 top-5 text-xl lg:text-4xl font-extrabold text-gray-700 lg:relative lg:top-28 lg:right-20 lg:z-10">
                 <p
-                    class="bg-[url(../src/assets/images/quotes.png)] quotes bg-no-repeat bg-left-top pt-5 pl-5 about-h-2">
+                    class="bg-[url(../src/assets/images/quotes.png)] quotes bg-no-repeat bg-left-top pt-5 pl-5 lng-about-h-2">
                     Leonardite - это прошлое и будущее земли</p>
             </div>
         </div>
@@ -642,7 +649,7 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../src/slick/slick.min.js"></script>
-    <script src="../src/js/main.js"></script>
+    <script type="module" src="../src/js/main.js"></script>
 </body>
 
 </html>

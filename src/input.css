@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#languageSwitcher option::after {
+    content: url(../src/assets/images/icons/eye.svg);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    pointer-events: none;
+  }
+
 * {
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
