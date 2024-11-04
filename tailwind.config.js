@@ -7,9 +7,12 @@ module.exports = {
         'hero-img': "url('../src/assets/images/hero_field.png')",
       },
       colors: {
-        'honey-yellow': '#FDF3D1',
-        'sun-flower': '#F6C746',
-        'honey-gray': '#E5E7E9'
+        white: '#F3F3F3',
+        'white-100': '#F8F2ED',
+        'white-200': '#FBFBF9',
+        'honey-yellow': '#B5B5B5',
+        'sun-flower': '#131313',
+        'honey-gray': '#646464'
       },
     },
   },
