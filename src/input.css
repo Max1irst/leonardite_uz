@@ -85,8 +85,7 @@ li::before {
     }
 }
 .quotes {
-    background-size: 50px;
-    z-index: -1;
+    background-size: 40px;
 }
 #prices {
 

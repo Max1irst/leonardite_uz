@@ -1,6 +1,9 @@
 
 import languages from '../translate.js'
 
+AOS.init();
+
+
 const langSelect = document.querySelector('#languageSwitcher')
 const allLanguages = ['en', 'ru', 'uz']
 
@@ -24,8 +27,6 @@ function changelanguage() {
   }
 }
 changelanguage()
-AOS.init();
-
 
 $(document).ready(function () {
   $('.single-item').slick({
