@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -576,10 +572,6 @@ video {
 
 .top-5 {
   top: 1.25rem;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .z-10 {
@@ -751,6 +743,10 @@ video {
   gap: 2rem;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -837,8 +833,20 @@ video {
   background-image: url(../src/assets/images/icons/quotes.svg);
 }
 
+.bg-\[url\(\.\.\/src\/assets\/images\/leonardite-1\.png\)\] {
+  background-image: url(../src/assets/images/leonardite-1.png);
+}
+
+.bg-\[url\(\'\.\.\/src\/assets\/images\/leonardite-1\.png\'\)\] {
+  background-image: url('../src/assets/images/leonardite-1.png');
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-center {
@@ -894,16 +902,17 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .pb-4 {
@@ -1227,6 +1236,10 @@ li::before {
     display: flex;
   }
 
+  .lg\:h-\[920px\] {
+    height: 920px;
+  }
+
   .lg\:w-\[300px\] {
     width: 300px;
   }
@@ -1237,6 +1250,18 @@ li::before {
 
   .lg\:w-\[600px\] {
     width: 600px;
+  }
+
+  .lg\:w-\[920px\] {
+    width: 920px;
+  }
+
+  .lg\:w-\[940px\] {
+    width: 940px;
+  }
+
+  .lg\:w-\[740px\] {
+    width: 740px;
   }
 
   .lg\:min-w-\[700px\] {
