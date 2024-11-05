@@ -570,6 +570,10 @@ video {
   top: 2.5rem;
 }
 
+.top-4 {
+  top: 1rem;
+}
+
 .top-5 {
   top: 1.25rem;
 }
@@ -658,6 +662,10 @@ video {
   width: 48px;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-full {
   width: 100%;
 }
@@ -719,6 +727,10 @@ video {
   justify-content: space-evenly;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-12 {
   gap: 3rem;
 }
@@ -741,10 +753,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.self-center {
-  align-self: center;
 }
 
 .overflow-hidden {
@@ -821,32 +829,12 @@ video {
   background-color: rgb(243 243 243 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-20 {
-  --tw-bg-opacity: 0.2;
-}
-
-.bg-\[url\(\'\.\.\/src\/assets\/images\/usage_2\.png\'\)\] {
-  background-image: url('../src/assets/images/usage_2.png');
-}
-
 .bg-\[url\(\.\.\/src\/assets\/images\/icons\/quotes\.svg\)\] {
   background-image: url(../src/assets/images/icons/quotes.svg);
 }
 
-.bg-\[url\(\.\.\/src\/assets\/images\/leonardite-1\.png\)\] {
-  background-image: url(../src/assets/images/leonardite-1.png);
-}
-
-.bg-\[url\(\'\.\.\/src\/assets\/images\/leonardite-1\.png\'\)\] {
-  background-image: url('../src/assets/images/leonardite-1.png');
-}
-
 .bg-cover {
   background-size: cover;
-}
-
-.bg-contain {
-  background-size: contain;
 }
 
 .bg-center {
@@ -859,6 +847,10 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .p-2 {
@@ -875,6 +867,10 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-\[7px\] {
+  padding: 7px;
 }
 
 .px-2 {
@@ -897,14 +893,14 @@ video {
   padding-bottom: 6rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pb-10 {
@@ -1064,6 +1060,10 @@ video {
   pointer-events: none;
 }
 
+.active {
+  background-color: #16DB65;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Playfair Display", serif;
@@ -1171,6 +1171,14 @@ li::before {
     display: none;
   }
 
+  .md\:h-14 {
+    height: 3.5rem;
+  }
+
+  .md\:h-16 {
+    height: 4rem;
+  }
+
   .md\:min-w-\[600px\] {
     min-width: 600px;
   }
@@ -1181,6 +1189,14 @@ li::before {
 
   .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.png\'\)\] {
     background-image: url('../src/assets/images/hero_field_cutted.png');
+  }
+
+  .md\:p-2 {
+    padding: 0.5rem;
+  }
+
+  .md\:p-3 {
+    padding: 0.75rem;
   }
 
   .md\:pt-10 {
@@ -1236,10 +1252,6 @@ li::before {
     display: flex;
   }
 
-  .lg\:h-\[920px\] {
-    height: 920px;
-  }
-
   .lg\:w-\[300px\] {
     width: 300px;
   }
@@ -1250,18 +1262,6 @@ li::before {
 
   .lg\:w-\[600px\] {
     width: 600px;
-  }
-
-  .lg\:w-\[920px\] {
-    width: 920px;
-  }
-
-  .lg\:w-\[940px\] {
-    width: 940px;
-  }
-
-  .lg\:w-\[740px\] {
-    width: 740px;
   }
 
   .lg\:min-w-\[700px\] {
@@ -1294,10 +1294,6 @@ li::before {
 
   .lg\:justify-evenly {
     justify-content: space-evenly;
-  }
-
-  .lg\:bg-none {
-    background-image: none;
   }
 
   .lg\:px-20 {

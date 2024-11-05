@@ -13,7 +13,9 @@
     width: 20px;
     pointer-events: none;
   }
-
+.active {
+    background-color: #16DB65;
+}
 * {
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
