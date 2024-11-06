@@ -10,9 +10,9 @@ module.exports = {
         white: '#F3F3F3',
         'white-100': '#F8F2ED',
         'white-200': '#FBFBF9',
-        'honey-yellow': '#B5B5B5',
-        'sun-flower': '#131313',
-        'honey-gray': '#646464'
+        'honey-gray': '#B5B5B5',
+        'honey-black': '#131313',
+        'honey-gray-100': '#646464'
       },
     },
   },

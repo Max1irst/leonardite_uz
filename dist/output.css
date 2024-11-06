@@ -562,20 +562,8 @@ video {
   bottom: 3.5rem;
 }
 
-.right-2 {
-  right: 0.5rem;
-}
-
 .top-10 {
   top: 2.5rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.top-5 {
-  top: 1.25rem;
 }
 
 .z-10 {
@@ -711,8 +699,20 @@ video {
   align-items: flex-start;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -809,28 +809,24 @@ video {
   border-color: rgb(243 243 243 / var(--tw-border-opacity));
 }
 
-.bg-honey-gray {
+.bg-honey-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(100 100 100 / var(--tw-bg-opacity));
+  background-color: rgb(19 19 19 / var(--tw-bg-opacity));
 }
 
-.bg-honey-yellow {
+.bg-honey-gray {
   --tw-bg-opacity: 1;
   background-color: rgb(181 181 181 / var(--tw-bg-opacity));
 }
 
-.bg-sun-flower {
+.bg-honey-gray-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(19 19 19 / var(--tw-bg-opacity));
+  background-color: rgb(100 100 100 / var(--tw-bg-opacity));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(243 243 243 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\.\.\/src\/assets\/images\/icons\/quotes\.svg\)\] {
-  background-image: url(../src/assets/images/icons/quotes.svg);
 }
 
 .bg-cover {
@@ -919,10 +915,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
 .pr-4 {
   padding-right: 1rem;
 }
@@ -951,12 +943,12 @@ video {
   padding-top: 0.75rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
@@ -1134,10 +1126,6 @@ li::before {
   }
 }
 
-.quotes {
-  background-size: 40px;
-}
-
 #prices {
   table,
     th,
@@ -1187,6 +1175,10 @@ li::before {
     flex-wrap: nowrap;
   }
 
+  .md\:gap-8 {
+    gap: 2rem;
+  }
+
   .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.png\'\)\] {
     background-image: url('../src/assets/images/hero_field_cutted.png');
   }
@@ -1199,8 +1191,8 @@ li::before {
     padding: 0.75rem;
   }
 
-  .md\:pt-10 {
-    padding-top: 2.5rem;
+  .md\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .md\:pt-4 {
@@ -1228,22 +1220,6 @@ li::before {
 }
 
 @media (min-width: 1024px) {
-  .lg\:relative {
-    position: relative;
-  }
-
-  .lg\:right-20 {
-    right: 5rem;
-  }
-
-  .lg\:top-28 {
-    top: 7rem;
-  }
-
-  .lg\:z-10 {
-    z-index: 10;
-  }
-
   .lg\:block {
     display: block;
   }
