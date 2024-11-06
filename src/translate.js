@@ -39,44 +39,179 @@ const languages = {
         "ru": "«LEONARDITE был создан, чтобы принести биологические решения нового поколения для улучшения сельского хозяйства. Наше органическое удобрение дополнит и улучшит любую программу производителей, для любой культуры и в любых условиях».",
         "uz": ""
     },
-    "composition-h-1": {
+    "composition-h-5": {
         "en": "Why choose LEONARDITE",
         "ru": "Почему выбирают LEONARDITE",
         "uz": ""
     },
     "composition-li-1": {
         "en": "Obtaining certification according to organic standards",
-        "ru": "Почему выбирают LEONARDITE",
+        "ru": "Получение сертификации по органическим стандартам",
         "uz": ""
     },
     "composition-li-2": {
         "en": "Having access to our own leonardite deposits, we ensure the highest and stable quality of our humate products.",
-        "ru": "Почему выбирают LEONARDITE",
+        "ru": "Имея доступ к нашим собственным месторождениям леонардита, мы обеспечиваем высочайшее и стабильное качество нашей гуматной продукции.",
         "uz": ""
     },
     "composition-li-3": {
         "en": "100% natural organic composition",
-        "ru": "Почему выбирают LEONARDITE",
+        "ru": "100% натуральный органический состав",
         "uz": ""
     },
     "composition-li-4": {
         "en": "It has no side effects and is easily combined with all types of fertilizers",
-        "ru": "Почему выбирают LEONARDITE",
+        "ru": "Не имеет побочных действий и легко совмещается со всеми видами удобрений",
         "uz": ""
     },
     "composition-li-5": {
         "en": "Reduces the side effects of chemical fertilizers",
-        "ru": "Почему выбирают LEONARDITE",
+        "ru": "Снижает побочные действия химических удобрений",
         "uz": ""
     },
     "composition-li-6": {
         "en": "Normalizes the salt content in the soil",
-        "ru": "Почему выбирают LEONARDITE",
+        "ru": "Нормализует содержание соли в почве",
         "uz": ""
     },
     "composition-li-7": {
         "en": "Increases moisture retention in any soil",
-        "ru": "Почему выбирают LEONARDITE",
+        "ru": "Повышает удержание влаги в любом грунте",
+        "uz": ""
+    },
+    "composition-td-1": {
+        "en": "Humic acids",
+        "ru": "Гуминовые кислоты",
+        "uz": ""
+    },
+    "composition-td-2": {
+        "en": "Fulvic acids",
+        "ru": "Фульвовые кислоты",
+        "uz": ""
+    },
+    "composition-td-3": {
+        "en": "Mg. Magnesium",
+        "ru": "Mg.Магний",
+        "uz": ""
+    },
+    "composition-td-4": {
+        "en": "Ca. Calcium",
+        "ru": "Ca.Кальций",
+        "uz": ""
+    },
+    "composition-td-5": {
+        "en": "Na. Sodium",
+        "ru": "Na.Натрий",
+        "uz": ""
+    },
+    "composition-td-6": {
+        "en": "В.Boron",
+        "ru": "B.Бор",
+        "uz": ""
+    },
+    "composition-td-7": {
+        "en": "Fe. Iron",
+        "ru": "Fe.Железо",
+        "uz": ""
+    },"composition-td-8": {
+        "en": "M. Manganese",
+        "ru": "Mn.Марганец",
+        "uz": ""
+    },
+    "composition-td-9": {
+        "en": "Mo. Molybdenum",
+        "ru": "Mo.Молибден",
+        "uz": ""
+    },
+    "composition-td-10": {
+        "en": "Zn. Zinc",
+        "ru": "Zn.Цинк",
+        "uz": ""
+    },
+    "composition-td-11": {
+        "en": "Cu. Copper",
+        "ru": "Cu.Медь",
+        "uz": ""
+    },
+    "composition-td-12": {
+        "en": "рН. Hydrogen",
+        "ru": "pH.Водородный показатель",
+        "uz": ""
+    },
+    "composition-h-6": {
+        "en": "RICH ORGANIC COMPOSITION",
+        "ru": "Богатый органический состав",
+        "uz": ""
+    },
+    "composition-gray-1": {
+        "en": "Humic acids",
+        "ru": "Гуминовые кислоты",
+        "uz": ""
+    },
+    "composition-gray-2": {
+        "en": "Iron",
+        "ru": "Железо",
+        "uz": ""
+    },
+    "composition-gray-3": {
+        "en": "Fulvic acids",
+        "ru": "Фульвовые кислоты",
+        "uz": ""
+    },
+    "composition-gray-4": {
+        "en": "Sodium",
+        "ru": "Натрий",
+        "uz": ""
+    },
+    "composition-gray-5": {
+        "en": "pH Hydrogen",
+        "ru": "pH Водород",
+        "uz": ""
+    },
+    "composition-gray-6": {
+        "en": "Calcium",
+        "ru": "Кальций",
+        "uz": ""
+    },
+    "products-h-3": {
+        "en": "OUR PRODUCTS",
+        "ru": "НАШИ ПРОДУКТЫ",
+        "uz": ""
+    },
+    "products-1-h": {
+        "en": "CONCENTRATE",
+        "ru": "КОНЦЕНТРАТ",
+        "uz": ""
+    },
+    "products-2-h": {
+        "en": "GEL",
+        "ru": "ГЕЛЬ",
+        "uz": ""
+    },
+    "products-3-h": {
+        "en": "POWDER",
+        "ru": "ПУДРА",
+        "uz": ""
+    },
+    "products-1-p": {
+        "en": "It is a liquid form of humic and fulvic acids.",
+        "ru": "Это жидкая форма гуминовых и фульвовых кислот.",
+        "uz": ""
+    },
+    "products-2-p": {
+        "en": "It is a pasty form of humic and fulvic acids.",
+        "ru": "Это пастообразная форма гуминовых и фульвовых кислот.",
+        "uz": ""
+    },
+    "products-3-p": {
+        "en": "Humic Acid and Fulvic acid are made from natural Leonardite. ",
+        "ru": "Гуминовая кислота и Фульвовая изготовлен из натурального леонардита.",
+        "uz": ""
+    }
+    ,
+    "products-details": {
+        "en": "More",
+        "ru": "Подробнее",
         "uz": ""
     }
 }

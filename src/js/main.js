@@ -19,8 +19,6 @@ languageElements.forEach(el => {
 })
 
 for (let key in languages) {
-  let elem = document.querySelector('.lng-' + key)
-  if (elem && languages[key][hash])
     document.querySelector('.lng-' + key).textContent = languages[key][hash]
 }
 

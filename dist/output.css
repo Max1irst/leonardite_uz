@@ -582,14 +582,6 @@ video {
   margin: auto;
 }
 
-.-mb-3 {
-  margin-bottom: -0.75rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
 }
@@ -622,24 +614,12 @@ video {
   height: 48px;
 }
 
-.h-\[95\%\] {
-  height: 95%;
-}
-
 .h-auto {
   height: auto;
 }
 
-.h-\[99\%\] {
-  height: 99%;
-}
-
 .h-screen {
   height: 100vh;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .min-h-\[301px\] {
@@ -672,10 +652,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .min-w-\[300px\] {
@@ -1076,7 +1052,6 @@ video {
   left: 10px;
   height: auto;
   width: 50px;
-  animation: pulse 2s infinite;
 }
 
 .slick-prev::before {
@@ -1085,7 +1060,6 @@ video {
   height: auto;
   transition: 1s all;
   opacity: 0.5;
-  animation: pulse 2s infinite;
 }
 
 .slick-next {
@@ -1093,7 +1067,6 @@ video {
   right: 10px;
   height: auto;
   width: 50px;
-  animation: pulse 2s infinite;
 }
 
 .slick-next::before {
@@ -1102,7 +1075,6 @@ video {
   height: auto;
   transition: 1s all;
   opacity: 0.5;
-  animation: pulse 2s infinite;
 }
 
 .slick-arrow {

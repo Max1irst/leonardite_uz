@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #languageSwitcher option::after {
     content: url(../src/assets/images/icons/eye.svg);
     position: absolute;
@@ -28,7 +27,6 @@
     left: 10px;
     height: auto;
     width: 50px;
-    animation: pulse 2s infinite;
 }
 
 .slick-prev::before {
@@ -37,7 +35,6 @@
     height: auto;
     transition: 1s all;
     opacity: 0.5;
-    animation: pulse 2s infinite;
 }
 
 .slick-next {
@@ -45,7 +42,6 @@
     right: 10px;
     height: auto;
     width: 50px;
-    animation: pulse 2s infinite;
 }
 
 .slick-next::before {
@@ -54,7 +50,6 @@
     height: auto;
     transition: 1s all;
     opacity: 0.5;
-    animation: pulse 2s infinite;
 }
 
 .slick-arrow {
