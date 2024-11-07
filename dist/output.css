@@ -574,10 +574,6 @@ video {
   z-index: 20;
 }
 
-.m-8 {
-  margin: 2rem;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -854,11 +850,6 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1049,7 +1040,7 @@ video {
 .slick-prev {
   z-index: 10;
   overflow: hidden;
-  left: 10px;
+  left: 0;
   height: auto;
   width: 50px;
 }
@@ -1064,7 +1055,7 @@ video {
 
 .slick-next {
   overflow: hidden;
-  right: 10px;
+  right: 0;
   height: auto;
   width: 50px;
 }

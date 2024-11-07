@@ -19,7 +19,9 @@ languageElements.forEach(el => {
 })
 
 for (let key in languages) {
-    document.querySelector('.lng-' + key).textContent = languages[key][hash]
+  let elem = document.querySelector('.lng-' + key)
+  if(elem && allLanguages.includes(hash))
+    document.querySelector('.lng-' + key).innerHTML = languages[key][hash]
 }
 
 
@@ -32,7 +34,7 @@ languageElements.forEach(el => el.addEventListener('click', () => {
   for (let key in languages) {
     let elem = document.querySelector('.lng-' + key)
     if (elem && languages[key][currentLang]) {
-      elem.textContent = languages[key][currentLang]
+      elem.innerHTML = languages[key][currentLang]
     } else {
       return
     }
