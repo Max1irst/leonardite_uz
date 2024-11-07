@@ -20,8 +20,8 @@ languageElements.forEach(el => {
 
 for (let key in languages) {
   let elem = document.querySelector('.lng-' + key)
-  if(elem && allLanguages.includes(hash))
-    document.querySelector('.lng-' + key).innerHTML = languages[key][hash]
+  if (elem && languages[key][hash])
+    elem.innerHTML = languages[key][hash]
 }
 
 
@@ -30,16 +30,13 @@ languageElements.forEach(el => el.addEventListener('click', () => {
   el.classList.add('active')
   const currentLang = el.getAttribute('language');
   location.href = window.location.pathname + `#${currentLang}`
+  location.reload()
 
   for (let key in languages) {
     let elem = document.querySelector('.lng-' + key)
-    if (elem && languages[key][currentLang]) {
+    if (elem && languages[key][currentLang])
       elem.innerHTML = languages[key][currentLang]
-    } else {
-      return
-    }
   }
-
 }))
 
 $(document).ready(function () {
