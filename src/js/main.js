@@ -1,10 +1,6 @@
 
 import languages from '../translate.js'
 
-AOS.init();
-
-
-const langSelect = document.querySelector('#languageSwitcher')
 const allLanguages = ['en', 'ru', 'uz']
 const languageElements = document.querySelectorAll('.languages a')
 
@@ -27,19 +23,22 @@ for (let key in languages) {
 
 languageElements.forEach(el => el.addEventListener('click', () => {
   document.querySelector('.active').classList.remove('active');
-  el.classList.add('active')
   const currentLang = el.getAttribute('language');
   location.href = window.location.pathname + `#${currentLang}`
   location.reload()
 
   for (let key in languages) {
     let elem = document.querySelector('.lng-' + key)
-    if (elem && languages[key][currentLang])
+    if (elem && languages[key][currentLang]) {
       elem.innerHTML = languages[key][currentLang]
+    } else {
+      return
+    }
   }
 }))
 
 $(document).ready(function () {
+  AOS.init();
   $('.single-item').slick({
     slidesToShow: 3,
     responsive: [

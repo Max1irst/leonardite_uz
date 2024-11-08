@@ -4,13 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="./output.css" rel="stylesheet">
-<script type="module" src="../src/js/main.js"></script>
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="../src/slick/slick.min.js"></script>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-</style>
+<link
+    href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+    rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="../src/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css" />
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -32,17 +28,16 @@
             </div>
         </div>
         <!-- <svg alt="logo"></svg> -->
-        <img src="../src/assets/images/logo.png" alt="logo" class="relative px-8 h-auto w-[500px]"
-            data-aos="fade-up" data-aos-duration="2000" data-aos-offset="0">
+        <img src="../src/assets/images/logo.png" alt="logo" class="relative px-8 h-auto w-[500px]" data-aos="fade-up">
         <img class="border-[12px] border-solid rounded-tl-full rounded-tr-full border-white w-full h-auto md:hidden"
-            src="../src/assets/images/hero_field.png" alt="hero_field" data-aos="fade-up" data-aos-offset="0" data-aos-duration="3000">
-        <div data-aos="fade-up" data-aos-duration="2000"
+            src="../src/assets/images/hero_field.png" alt="hero_field" data-aos="fade-up">
+        <div data-aos="fade-up"
             class="hidden md:block md:bg-[url('../src/assets/images/hero_field_cutted.png')] bg-cover bg-no-repeat bg-center border-[12px] border-solid rounded-tl-full rounded-tr-full border-white w-full h-[40%]">
         </div>
     </section>
     <section id="about" class="text-gray-700 bg-white h-auto w-full flex flex-col items-start justify-between">
         <h2 class="text-gray-500 px-8 lg:px-20 overflow-hidden z-10 text-3xl md:text-4xl lg:text-6xl font-semibold"
-            data-aos="zoom-out-right" data-aos-duration="2000">LEONARDITE</h2>
+            data-aos="zoom-in-right">LEONARDITE</h2>
         <div class="flex items-center md:gap-8 lg:items-start pt-2 justify-center px-8 lg:px-20">
             <div class="flex flex-col items-start justify-between">
                 <p class="pb-2 font-semibold text-black text-lg md:text-2xl lng-about-h-1">О нашем продукте</p>
@@ -595,7 +590,7 @@
     <section id="prices">
         <div class="flex flex-col items-center">
             <div class="p-8">
-                <img src="../src/assets/images/logo_dark.png" alt="logo" data-aos="zoom-out" data-aos-duration="2000">
+                <img src="../src/assets/images/logo_dark.png" alt="logo" data-aos="zoom-in">
             </div>
             <div class="flex items-center justify-center px-8 text-sm font-medium md:text-4xl lng-prices-table">
                 <table>
@@ -660,6 +655,10 @@
             </div>
         </footer>
     </section>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../src/slick/slick.min.js"></script>
+    <script type="module" src="../src/js/main.js"></script>
 </body>
 
 </html>

@@ -570,36 +570,12 @@ video {
   z-index: 10;
 }
 
-.z-20 {
-  z-index: 20;
-}
-
 .m-auto {
   margin: auto;
 }
 
 .mt-20 {
   margin-top: 5rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .flex {
@@ -638,10 +614,6 @@ video {
   height: 100vh;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .min-h-\[301px\] {
   min-height: 301px;
 }
@@ -658,12 +630,16 @@ video {
   width: 300px;
 }
 
-.w-\[400px\] {
-  width: 400px;
-}
-
 .w-\[48px\] {
   width: 48px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[550px\] {
+  width: 550px;
 }
 
 .w-auto {
@@ -672,26 +648,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
-.w-\[600px\] {
-  width: 600px;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[450px\] {
-  width: 450px;
-}
-
-.w-\[550px\] {
-  width: 550px;
 }
 
 .min-w-\[300px\] {
@@ -733,10 +689,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -938,10 +890,6 @@ video {
   padding-top: 0.25rem;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .pt-14 {
   padding-top: 3.5rem;
 }
@@ -958,28 +906,16 @@ video {
   padding-top: 0.75rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .pt-5 {
   padding-top: 1.25rem;
 }
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem;
 }
 
 .text-center {
@@ -1089,7 +1025,7 @@ video {
 
 * {
   box-sizing: border-box;
-  font-family: "Playfair Display", serif;
+  font-family: "Lexend Deca", sans-serif;
   overflow-x: hidden;
 }
 
@@ -1171,17 +1107,6 @@ li::before {
   padding: 0.25rem;
 }
 
-@media (min-width: 640px) {
-  .sm\:w-96 {
-    width: 24rem;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:block {
     display: block;
@@ -1258,10 +1183,6 @@ li::before {
 
   .lg\:w-\[300px\] {
     width: 300px;
-  }
-
-  .lg\:w-\[35\%\] {
-    width: 35%;
   }
 
   .lg\:w-\[600px\] {
