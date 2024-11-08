@@ -6,7 +6,7 @@ const languages = {
     },
     "about-h-2": {
         "en": "LEONARDITE IS THE PAST AND FUTURE OF THE EARTH",
-        "ru": "Leonardite - это прошлое и будущее земли",
+        "ru": "LEONARDITE - ЭТО ПРОШЛОЕ И БУДУЩЕЕ ЗЕМЛИ",
         "uz": "",
     },
     "about-p-1": {
@@ -259,12 +259,109 @@ const languages = {
         "en": '<summary class="text-2xl p-2 transition-all cursor-pointer">More</summary>It is an excellent soil conditioner that can be used in the landscape and garden, as well as for all agricultural and garden plants. It can be mixed with other organic or chemical fertilizers. <br> Advantages: Leaf Application: Stimulates plant growth (increase biomass production) Increases productivity and improves plant quality. Improves the absorption of nutrients through leaves and roots. Improves the effectiveness of pesticides Application in soil: Improves soil structure Reduces nutrient losses Improves the absorption of nutrients by the root system. Promotes root development Increases the microbiological activity of the soil Increases the ability to retain water and cation exchange.<br> Price: <br> <span class="text-2xl font-semibold px-2">1kg - 150.000 sum</span>',
         "ru": '<summary class="text-2xl p-2 transition-all cursor-pointer">Подробнее</summary>Это отличный кондиционер для почвы, который можно применять в ландшафте и саду, а также для всех сельскохозяйственных и садовых растений. Его можно смешивать с другими органическими или химическими удобрениями. <br> Преимущество: Листовое применение: Стимулировать рост растений (увеличение производства биомассы) Увеличивает урожайность и улучшает качество растений. Улучшить поглощение питательных веществ через листья и корни. Повышение эффективности пестицидов Применение в почве: Улучшить структуру почвы Уменьшите потери питательных веществ Улучшить поглощение питательных веществ корневой системой. Способствовать развитию корней Повышение микробиологической активности почвы Увеличение способности удерживать воду и катионного обмена. <br> Цена: <br> <span class="text-2xl font-semibold px-2">1кг - 150.000 сум</span>',
         "uz": ""
-    }
-    ,
+    },
     "products-details-3-p": {
         "en": 'It is an excellent soil conditioner that can be used in the landscape and garden, as well as for all agricultural and garden plants. It can be mixed with other organic or chemical fertilizers. <br> Advantages: Leaf Application: Stimulates plant growth (increase biomass production) Increases productivity and improves plant quality. Improves the absorption of nutrients through leaves and roots. Improves the effectiveness of pesticides Application in soil: Improves soil structure Reduces nutrient losses Improves the absorption of nutrients by the root system. Promotes root development Increases the microbiological activity of the soil Increases the ability to retain water and cation exchange.<br> Price: <br> <span class="text-2xl font-semibold px-2">1kg - 150.000 sum</span>',
         "ru": 'Это отличный кондиционер для почвы, который можно применять в ландшафте и саду, а также для всех сельскохозяйственных и садовых растений. Его можно смешивать с другими органическими или химическими удобрениями. <br> Преимущество: Листовое применение: Стимулировать рост растений (увеличение производства биомассы) Увеличивает урожайность и улучшает качество растений. Улучшить поглощение питательных веществ через листья и корни. Повышение эффективности пестицидов Применение в почве: Улучшить структуру почвы Уменьшите потери питательных веществ Улучшить поглощение питательных веществ корневой системой. Способствовать развитию корней Повышение микробиологической активности почвы Увеличение способности удерживать воду и катионного обмена.<br>Цена: <br><span class="text-2xl font-semibold px-2">1кг - 150.000 сум</span>',
         "uz": ""
+    },
+    "footer": {
+        "en": ` <strong class="text-green-700 pb-2">
+                        “FALAK O’G’ITLARI” LLC
+                    </strong>
+                    <p>
+                        Ts 31711887-01-2022 Manufacturer: “FALAK O’G’ITLARI” LLC <br>
+                        Retention period: 5 years
+                        Storage conditions: -10/+40 <br>
+                        Address: Kibray district, Issiklik street, house 41. TN VED code: 3808 93 900 0<br>
+                        Phone number: <a class="text-green-700" href="tel:+998950104554">+998950104554</a> <br>
+                        Made in Uzbekistan
+                    </p>`,
+        "ru": ` <strong class="text-green-700 pb-2">
+                        ООО «FALAK O’G’ITLARI»
+                    </strong>
+                    <p>
+                        Ts 31711887-01-2022 Ишлаб чикарувчи: ООО «Falak o’g’itlari» <br>
+                        Саклаш муддати: 5йил Саклаш шартлари:
+                        -10/+40 <br>
+                        Манзил: Кибрай тумани, Иссиклик кочаси, 41 уй.ТНВЕД код:3808 93 900 0 <br>
+                        Телефон раками: <a class="text-green-700" href="tel:+998950104554">+998950104554</a> <br>
+                        Ўзбекистонда ишлаб чикарилган
+                    </p>`,
+        "uz": ""
+    },
+    "prices-table": {
+        "en": `<table>
+                    <th>NAME</th>
+                    <th>VOLUME</th>
+                    <th>SUM</th>
+                    <th>+12%</th>
+                    <th>$</th>
+                    <tr>
+                        <td class="bg-honey-gray">LEONARDITE CONCENTRATE</td>
+                        <td>1 liter</td>
+                        <td>45.000</td>
+                        <td>50.400</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-gray">LEONARDITE CONCENTRATE</td>
+                        <td>20 liters</td>
+                        <td>800.000</td>
+                        <td>896.000</td>
+                        <td>71</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-gray">LEONARDITE GEL</td>
+                        <td>3.5kg</td>
+                        <td>52.500</td>
+                        <td>58.800</td>
+                        <td>4,6</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-gray">LEONARDITE GEL</td>
+                        <td>12kg</td>
+                        <td>180.000</td>
+                        <td>201.000</td>
+                        <td>16</td>
+                    </tr>
+                </table>`,
+        "ru": `<table>
+                    <th>НАИМЕНОВАНИЕ</th>
+                    <th>ОБЪЕМ</th>
+                    <th>СУМ</th>
+                    <th>+12%</th>
+                    <th>$</th>
+                    <tr>
+                        <td class="bg-honey-gray">LEONARDITE КОНЦЕНТРАТ</td>
+                        <td>1 литр</td>
+                        <td>45.000</td>
+                        <td>50.400</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-gray">LEONARDITE КОНЦЕНТРАТ</td>
+                        <td>20 литров</td>
+                        <td>800.000</td>
+                        <td>896.000</td>
+                        <td>71</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-gray">LEONARDITE ГЕЛЬ</td>
+                        <td>3,5 кг</td>
+                        <td>52.500</td>
+                        <td>58.800</td>
+                        <td>4,6</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-honey-gray">LEONARDITE ГЕЛЬ</td>
+                        <td>12 кг</td>
+                        <td>180.000</td>
+                        <td>201.000</td>
+                        <td>16</td>
+                    </tr>
+                </table>`,
+        "uz": "",
     }
 }
 
