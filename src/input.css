@@ -90,7 +90,7 @@ li::before {
         text-align: center;
         border: 1px solid black;
         border-collapse: collapse;
-        padding: 18px 10px;
+        padding: 14px 8px;
     }
 
     th {
