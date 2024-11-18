@@ -578,6 +578,10 @@ video {
   margin-top: 5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -648,14 +652,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-40 {
-  width: 10rem;
 }
 
 .min-w-\[300px\] {
@@ -1197,12 +1193,12 @@ li::before {
     width: 300px;
   }
 
-  .lg\:w-\[600px\] {
-    width: 600px;
-  }
-
   .lg\:w-\[500px\] {
     width: 500px;
+  }
+
+  .lg\:w-\[600px\] {
+    width: 600px;
   }
 
   .lg\:min-w-\[700px\] {
