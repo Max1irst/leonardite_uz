@@ -2,27 +2,6 @@
 import languages from '../translate.js'
 
 AOS.init();
-$('.single-item').slick({
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 1280,
-      settings: {
-        slidesToShow: 2,
-      },
-    },
-  ],
-});
-$('button.slick-arrow').click(function () {
-  $('details').removeAttr('open');
-});
-
 
 const allLanguages = ['en', 'ru', 'uz']
 const languageElements = document.querySelectorAll('.languages a')
@@ -59,3 +38,25 @@ languageElements.forEach(el => el.addEventListener('click', () => {
     }
   }
 }))
+
+
+$('.single-item').slick({
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+    {
+      breakpoint: 1280,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+  ],
+});
+$('button.slick-arrow').click(function () {
+  $('details').removeAttr('open');
+});
