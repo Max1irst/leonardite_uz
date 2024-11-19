@@ -11,10 +11,12 @@
     height: 20px;
     width: 20px;
     pointer-events: none;
-  }
+}
+
 .active {
     background-color: #16DB65;
 }
+
 * {
     box-sizing: border-box;
     font-family: "Lexend Deca", sans-serif;
@@ -30,7 +32,7 @@
 }
 
 .slick-prev::before {
-    content: url(../src/assets/images/icons/prev.svg);
+    content: url(../src/assets/images/icons/prev.png);
     width: 30px;
     height: auto;
     transition: 1s all;
@@ -45,7 +47,7 @@
 }
 
 .slick-next::before {
-    content: url(../src/assets/images/icons/next.svg);
+    content: url(../src/assets/images/icons/next.png);
     width: 30px;
     height: auto;
     transition: 1s all;
@@ -65,11 +67,11 @@ li {
     padding: 0.5rem 0;
 }
 
-li::before {
+/* li::before {
     content: url(./assets/images/icons/checked.svg);
     width: 24px;
     height: 24px;
-}
+} */
 
 #composition {
 

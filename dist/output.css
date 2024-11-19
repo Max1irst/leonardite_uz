@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -570,22 +566,6 @@ video {
   top: 2.5rem;
 }
 
-.bottom-\[-7px\] {
-  bottom: -7px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.-top-1 {
-  top: -0.25rem;
-}
-
 .top-\[-2px\] {
   top: -2px;
 }
@@ -596,10 +576,6 @@ video {
 
 .m-auto {
   margin: auto;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .mt-20 {
@@ -1066,7 +1042,7 @@ video {
 }
 
 .slick-prev::before {
-  content: url(../src/assets/images/icons/prev.svg);
+  content: url(../src/assets/images/icons/prev.png);
   width: 30px;
   height: auto;
   transition: 1s all;
@@ -1081,7 +1057,7 @@ video {
 }
 
 .slick-next::before {
-  content: url(../src/assets/images/icons/next.svg);
+  content: url(../src/assets/images/icons/next.png);
   width: 30px;
   height: auto;
   transition: 1s all;
@@ -1101,11 +1077,11 @@ li {
   padding: 0.5rem 0;
 }
 
-li::before {
-  content: url(./assets/images/icons/checked.svg);
-  width: 24px;
-  height: 24px;
-}
+/* li::before {
+    content: url(./assets/images/icons/checked.svg);
+    width: 24px;
+    height: 24px;
+} */
 
 #composition {
   table,
@@ -1168,8 +1144,8 @@ li::before {
     gap: 2rem;
   }
 
-  .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.png\'\)\] {
-    background-image: url('../src/assets/images/hero_field_cutted.png');
+  .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.jpg\'\)\] {
+    background-image: url('../src/assets/images/hero_field_cutted.jpg');
   }
 
   .md\:p-2 {
