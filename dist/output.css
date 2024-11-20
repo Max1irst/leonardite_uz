@@ -878,10 +878,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -1075,13 +1071,12 @@ li {
   align-items: center;
   gap: 1rem;
   padding: 0.5rem 0;
+  border-bottom: 1.5px solid rgba(21, 128, 61, 0.2);
 }
 
-/* li::before {
-    content: url(./assets/images/icons/checked.svg);
-    width: 24px;
-    height: 24px;
-} */
+li::before{
+  content: '*';
+}
 
 #composition {
   table,
@@ -1154,10 +1149,6 @@ li {
 
   .md\:p-3 {
     padding: 0.75rem;
-  }
-
-  .md\:pt-4 {
-    padding-top: 1rem;
   }
 
   .md\:text-center {

@@ -65,13 +65,11 @@ li {
     align-items: center;
     gap: 1rem;
     padding: 0.5rem 0;
+    border-bottom: 1.5px solid rgba(21, 128, 61, 0.2);
 }
-
-/* li::before {
-    content: url(./assets/images/icons/checked.svg);
-    width: 24px;
-    height: 24px;
-} */
+li::before{
+    content: '*';
+}
 
 #composition {
 
