@@ -32,7 +32,7 @@
 }
 
 .slick-prev::before {
-    content: url(../src/assets/images/icons/prev.png);
+    content: url(../src/assets/images/icons/prev.webp);
     width: 30px;
     height: auto;
     transition: 1s all;
@@ -47,7 +47,7 @@
 }
 
 .slick-next::before {
-    content: url(../src/assets/images/icons/next.png);
+    content: url(../src/assets/images/icons/next.webp);
     width: 30px;
     height: auto;
     transition: 1s all;

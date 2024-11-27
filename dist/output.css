@@ -622,6 +622,10 @@ video {
   min-height: 301px;
 }
 
+.min-h-full {
+  min-height: 100%;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -868,6 +872,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -1055,7 +1064,7 @@ video {
 }
 
 .slick-prev::before {
-  content: url(../src/assets/images/icons/prev.png);
+  content: url(../src/assets/images/icons/prev.webp);
   width: 30px;
   height: auto;
   transition: 1s all;
@@ -1070,7 +1079,7 @@ video {
 }
 
 .slick-next::before {
-  content: url(../src/assets/images/icons/next.png);
+  content: url(../src/assets/images/icons/next.webp);
   width: 30px;
   height: auto;
   transition: 1s all;
@@ -1156,8 +1165,8 @@ li::before{
     gap: 2rem;
   }
 
-  .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.jpg\'\)\] {
-    background-image: url('../src/assets/images/hero_field_cutted.jpg');
+  .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.webp\'\)\] {
+    background-image: url('../src/assets/images/hero_field_cutted.webp');
   }
 
   .md\:p-2 {
