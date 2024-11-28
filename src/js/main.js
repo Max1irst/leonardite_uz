@@ -41,8 +41,6 @@ languageElements.forEach(el => el.addEventListener('click', () => {
 
 
 $('.single-item').slick({
-  touchMove: false,
-  accessibility: false,
   slidesToShow: 3,
   responsive: [
     {
