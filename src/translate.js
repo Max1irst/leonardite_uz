@@ -241,19 +241,29 @@ const languages = {
         "uz": 'Бу тупроқ учун ажойиб кондиционер бўлиб, у ландшафт ва боғда, шунингдек, барча қишлоқ хўжалиги ва боғ ўсимликлари учун ишлатилиши мумкин. Уни бошқа органик ёки кимёвий ўғитлар билан аралаштириш мумкин. <br> Афзаллиги: Баргларда қўллаш: Ўсимликларнинг ўсишини рағбатлантиради (биомасса ишлаб чиқаришни кўпайтириш) Ҳосилдорликни оширади ва ўсимлик сифатини яхшилайди. Барглар ва илдизлар орқали озиқ моддаларни сўрилишини яхшилайди. Пестицидлар самарадорлигини оширади <br> Тупроқда қўлланиши: Тупроқ структурасини яхшилайди Озиқ моддалар йўқотилишини камайтиради Илдиз тизими томонидан озиқ моддаларнинг сўрилишини яхшилайди. Илдизларнинг ривожланишига ёрдам беради Тупроқнинг микробиологик фаоллигини оширади Сув ва катион алмашинувини ушлаб туриш қобилиятини оширади. <br> Нархи: <br> <span class="text-2xl font-semibold px-2">1кг - 150.000 сум</span>'
     },
     "usage-h-1": {
-        "en": ``,
+        "en": `METHOD OF APPLICATION`,
         "ru": `СПОСОБ ПРИМЕНЕНИЯ`,
         "uz": `Қўллаш усули`
     },
     "usage-strong-1": {
-        "en": ``,
+        "en": `Leonardite is used for irrigation methods: <br> surface, sprinkling, subsurface, drip.`,
         "ru": `Leonardite используется для способов полива: <br>
                     поверхностный, дождеванием, внутрипочвенный, капельный.`,
         "uz": `Leonardite суғориш усуллари: <br>
                     юза, ёмғирлатиб, тупроқ ичида, томчилатиб суғориш учун ишлатилади.`
     },
     "usage-p-1": {
-        "en": ``,
+        "en": `<strong class="py-1">Cotton and grain crops:</strong> <br>
+                    For subsurface and drip irrigation 2 liters of Leonardite per 1 ton of water. For sprinkling irrigation 4 liters per ton of water. Use every 5 days for 50 days <br>
+                    <strong class="py-2">Vegetables and Fruits:</strong> <br>
+                    For subsurface and drip irrigation 2 liters of Leonardite per 1 ton of water. For sprinkling irrigation 4 liters per ton of water. Use every 5 days for 50 days <br>
+
+                    <strong class="py-2">Berries, raspberries, strawberries, watermelon, melon, etc.:</strong> <br>
+                    For subsurface and drip irrigation 2 liters of Leonardite per 1 ton of water. For sprinkling irrigation 4 liters per ton of water. Use every 5 days for 50 days<br>
+                    <strong class="py-2">For all types of trees:</strong> <br>
+                    4 liters per ton of water, water every 10 days on a permanent basis <br>
+
+                    Leonardite can be combined with any medicines. Leonardite has no side effects.`,
         "ru": `<strong class="py-1">Хлопок и зерновые культуры:</strong> <br>
                     Для внутрипочвенного и капельного полива 2 литра Leonardite на 1 тонну воды. Для полива путем
                     дождевания 4 литра на тонну воды.Использовать каждые 5 дней на протяжении 50 дней <br>
@@ -281,12 +291,12 @@ const languages = {
                     Леонардитни исталган дори-дармонлар билан бирга қўллаш мумкин. Leonardit ножўя таъсирларга эга эмас.`
     },
     "usage-h-2": {
-        "en": ``,
+        "en": `PRODUCT EFFECT`,
         "ru": `ДЕЙСТВИЕ ПРОДУКТА`,
         "uz": `Маҳсулотнинг таъсири`
     },
     "usage-p-2": {
-        "en": ``,
+        "en": `Modern scientific research shows that soil fertility is largely determined by the level of humic acids in them. The most important property of humic acids is their ability to bind ions of insoluble metals, their oxides and hydroxides and subsequently to slowly and continuously release them as needed for plant nutrition. Due to these properties, humic acids have three types of effects: physical, chemical and biological`,
         "ru": `Современные научные исследования показывают, что плодородие почв в большой степени
                 определяется уровнем
                 содержания в них гуминовых кислот.Наиболее важным свойством гуминовых кислот является их способность к
@@ -296,7 +306,23 @@ const languages = {
         "uz": `Замонавий илмий тадқиқотлар шуни кўрсатадики, тупроқ унумдорлиги кўп жиҳатдан ундаги гу- мин кислоталарининг миқдори билан белгиланади.Гумин кислоталарининг энг муҳим хусусияти уларнинг эримайдиган металл ионларини, уларнинг оксидлари ва гидроксидларини боғлаш ва кейинчалик уларни ўсимликлар озиқланиши учун зарур бўлганда аста-секин ва узлуксиз ра- вишда ажратиб олиш қобилиятидир. Бундай хоссалари туфайли гумин кислоталар уч хил таъ- сир кўрсатади: физик, кимёвий ва биологик`
     },
     "usage-list-1": {
-        "en": ``,
+        "en": `<strong class="text-xl lg:text-2x py-5">Physical impact</strong>
+                <ul>
+                    <li>Improvement of soil structure, thereby preventing high losses of moisture and nutrients in light and sandy soils while simultaneously transforming them into fertile soils as a result of the decomposition process
+                    </li>
+                    <li>
+                        Drought resistance, as a result of improving the soil's ability to retain water
+                    </li>
+                    <li> 
+                        Prevention of soil cracking, surface water runoff! and soil erosion! as a result of the formation of a colloidal structure
+                    </li>
+                    <li>
+                        Making the soil looser and friable, thereby increasing its aeration and suitability for cultivation
+                    </li>
+                    <li>
+                        Darkening the soil, which promotes better absorption of solar energy
+                    </li>
+                </ul>`,
         "ru": `<strong class="text-xl lg:text-2x py-5">Физическое воздействие</strong>
                 <ul>
                     <li>Улучшение структуры почвы, вследствие чего предотвращаются высокие потери
@@ -338,7 +364,39 @@ const languages = {
                 </ul>`
     },
     "usage-list-2": {
-        "en": ``,
+        "en": `<strong class="text-xl lg:text-2x py-5">Chemical impact</strong>
+                <ul>
+                    <li>
+                        Neutralization of both acid and alkaline soils; regulation of pH
+                    </li>
+                    <li>
+                        Improvement and optimization of nutrient uptake and water consumption by plants
+                    </li>
+                    <li>
+                        Strengthening the buffering action of the soil
+                    </li>
+                    <li>
+                        Enrichment of the soil with organic and mineral substances necessary for plant growth
+                    </li>
+                    <li>
+                        Acquisition of an extremely high cation exchange capacity by the soil
+                    </li>
+                    <li>
+                        Conversion of macro- and micronutrients into a form available for consumption by plants
+                    </li>
+                    <li>
+                        Increase in nitrogen consumption by plants
+                    </li>
+                    <li>
+                        Reduction in the amount of phosphorus entering into a chemical reaction with Ca, Fe, Mg and Al, and its release in an accessible and beneficial form for plants
+                    </li>
+                    <li>
+                        Assistance in the elimination of chlorosis caused by iron deficiency in the plant organism
+                    </li>
+                    <li>
+                        Reduction in the content of toxic substances in the soil
+                    </li>
+                </ul>`,
         "ru": `<strong class="text-xl lg:text-2x py-5">Химическое воздействие</strong>
                 <ul>
                     <li>
@@ -408,7 +466,36 @@ const languages = {
                 </ul>`
     },
     "usage-list-3": {
-        "en": ``,
+        "en": `<strong class="text-xl lg:text-2x py-5">Biological impact</strong>
+                <ul>
+                    <li>
+                        Stimulate the growth and spread of desirable microorganisms in the soil
+                    </li>
+                    <li>
+                        Contribute to the strengthening of the natural resistance of plants to diseases and insect pests
+                    </li>
+                    <li>
+                        Stimulate the growth of the root system, especially in the vertical direction, and improve its uptake of nutrients
+                    </li>
+                    <li>
+                        Contribute to the formation of chlorophyll, sugars and amino acids in plants involved in photosynthesis
+                    </li>
+                    <li>
+                        Increase the content of vitamins and minerals in plant organisms
+                    </li>
+                    <li>
+                        Cause thickening of the cell membranes of fruits and increase their shelf life
+                    </li>
+                    <li>
+                        Increase the germination and viability of seeds
+                    </li>
+                    <li>
+                        Stimulate plant growth (formation of more biomass) by intensifying the process of cell division, thereby accelerating the development of the root system and increasing the content of dry matter in plants
+                    </li>
+                    <li>
+                        Improve the quality of the harvest; improves the physical condition of fruits and their nutritional value
+                    </li>
+                </ul>`,
         "ru": `<strong class="text-xl lg:text-2x py-5">Биологическое воздействие</strong>
                 <ul>
                     <li>
