@@ -5,11 +5,12 @@ AOS.init();
 
 const allLanguages = ['en', 'ru', 'uz']
 const languageElements = document.querySelectorAll('.languages a')
+const defaultLang = document.querySelector('[language="ru"]')
 
 const hash = window.location.hash.substring(1)
 if (hash == '' || !allLanguages.includes(hash)) {
-  location.href = window.location.pathname + '#en'
-  location.reload()
+  window.location.hash = '#ru'
+  defaultLang.classList.add('active')
 }
 languageElements.forEach(el => {
   if (el.attributes.language.value == hash)
