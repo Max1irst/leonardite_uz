@@ -8,15 +8,15 @@
     content="leonardite Uzbekistan, леонардит Узбекистан, leonardit ozbekiston, гуминовая кислота, удобрение, лучшее удобрение, o'g'it, ogit, удобрения узбекистан, производители удобрений в узбекистане, леонардит купить, леонардит удобрение, гумат леонардита">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Leonardite.uz</title>
-<link rel="icon" type="image/png" href="../src/assets/images/favicon-32x32-min.png">
 <link href="./output.css" rel="stylesheet">
-<link
-    href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
-    rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="../src/slick/slick.css" />
 <link rel="stylesheet" type="text/css" href="../src/slick/slick-theme.css" />
 <link href="../src/input.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="../src/assets/images/favicon-32x32-min.png">
+<link
+    href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body class="bg-white">
@@ -698,7 +698,47 @@
             </div>
         </footer>
     </section>
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    <script type="module">
+        import languages from '../src/translate.js'
+
+        const allLanguages = ['en', 'ru', 'uz']
+        const languageElements = document.querySelectorAll('.languages a')
+        const defaultLang = document.querySelector('[language="ru"]')
+
+        const hash = window.location.hash.substring(1)
+        if (hash == '' || !allLanguages.includes(hash)) {
+            window.location.hash = '#ru'
+            defaultLang.classList.add('active')
+        }
+        languageElements.forEach(el => {
+            if (el.attributes.language.value == hash)
+                el.classList.add('active')
+        })
+
+        for (let key in languages) {
+            let elem = document.querySelector('.lng-' + key)
+            if (elem && languages[key][hash])
+                elem.innerHTML = languages[key][hash]
+        }
+
+
+        languageElements.forEach(el => el.addEventListener('click', () => {
+            document.querySelector('.active').classList.remove('active');
+            const currentLang = el.getAttribute('language');
+            location.href = window.location.pathname + `#${currentLang}`
+            location.reload()
+
+            for (let key in languages) {
+                let elem = document.querySelector('.lng-' + key)
+                if (elem && languages[key][currentLang]) {
+                    elem.innerHTML = languages[key][currentLang]
+                } else {
+                    return
+                }
+            }
+        }))
+    </script>
+        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../src/slick/slick.min.js"></script>
