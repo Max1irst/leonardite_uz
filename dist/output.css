@@ -618,10 +618,6 @@ video {
   height: 100vh;
 }
 
-.max-h-\[518px\] {
-  max-height: 518px;
-}
-
 .min-h-\[301px\] {
   min-height: 301px;
 }
@@ -680,10 +676,6 @@ video {
 
 .max-w-\[500px\] {
   max-width: 500px;
-}
-
-.max-w-\[518px\] {
-  max-width: 518px;
 }
 
 .shrink-0 {

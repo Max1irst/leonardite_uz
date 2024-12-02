@@ -1,5 +1,1 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M32 96H480V416H32V96Z" fill="#2A2FAF"></path>
-<path d="M32 96H480V200H32V96Z" fill="#FBFBFB"></path>
-<path d="M32 312H480V416H32V312Z" fill="#E92B2B"></path>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" fill="none"><path fill="#2A2FAF" d="M32 96h448v320H32z"/><path fill="#FBFBFB" d="M32 96h448v104H32z"/><path fill="#E92B2B" d="M32 312h448v104H32z"/></svg>
