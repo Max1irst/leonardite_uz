@@ -618,6 +618,10 @@ video {
   height: 100vh;
 }
 
+.max-h-\[518px\] {
+  max-height: 518px;
+}
+
 .min-h-\[301px\] {
   min-height: 301px;
 }
@@ -676,6 +680,10 @@ video {
 
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.max-w-\[518px\] {
+  max-width: 518px;
 }
 
 .shrink-0 {
@@ -1077,7 +1085,7 @@ video {
 }
 
 .slick-prev::before {
-  content: url(../src/assets/images/icons/prev.webp);
+  content: url(../src/assets/images/icons/prev.png);
   width: 30px;
   height: auto;
   transition: 1s all;
@@ -1092,7 +1100,7 @@ video {
 }
 
 .slick-next::before {
-  content: url(../src/assets/images/icons/next.webp);
+  content: url(../src/assets/images/icons/next.png);
   width: 30px;
   height: auto;
   transition: 1s all;
@@ -1178,8 +1186,8 @@ li::before{
     gap: 2rem;
   }
 
-  .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.webp\'\)\] {
-    background-image: url('../src/assets/images/hero_field_cutted.webp');
+  .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.jpg\'\)\] {
+    background-image: url('../src/assets/images/hero_field_cutted.jpg');
   }
 
   .md\:p-2 {
