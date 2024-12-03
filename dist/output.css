@@ -662,6 +662,10 @@ video {
   width: 100%;
 }
 
+.w-\[600px\] {
+  width: 600px;
+}
+
 .min-w-\[300px\] {
   min-width: 300px;
 }
@@ -1217,6 +1221,10 @@ li::before{
 @media (min-width: 1024px) {
   .lg\:block {
     display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:w-\[300px\] {

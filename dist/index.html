@@ -40,7 +40,8 @@
             data-aos-duration="1000">
         <img decoding="async" fetchpriority="high"
             class="border-[12px] border-solid rounded-tl-full rounded-tr-full border-white w-full h-auto md:hidden"
-            src="../src/assets/images/hero_field.png" alt="hero_field" data-aos="fade-up" data-aos-duration="1000">
+            src="../src/assets/images/hero_field_optimized.png" alt="hero_field" data-aos="fade-up"
+            data-aos-duration="1000">
         <div data-aos="fade-up"
             class="hidden md:block md:bg-[url('../src/assets/images/hero_field_cutted.jpg')] bg-cover bg-no-repeat bg-center border-[12px] border-solid rounded-tl-full rounded-tr-full border-white w-full h-[40%]">
         </div>
@@ -51,14 +52,12 @@
         <p class="pb-2 px-8 lg:px-20 font-semibold text-black text-lg md:text-2xl lng-about-h-1">О нашем продукте</p>
         <div class="flex items-center md:gap-8 pt-2 justify-center px-8 lg:px-20">
             <div class="flex flex-col items-start justify-between">
-                <picture class="z-10">
-                    <source loading="lazy" decoding="async" fetchpriority="high"
-                        class="rounded-lg lg:w-[600px] h-auto w-[550px] pr-4" type="image/webp"
-                        srcset="../src/assets/images/corn.webp">
-                    <img loading="lazy" decoding="async" fetchpriority="high"
-                        class="rounded-lg lg:w-[600px] h-auto w-[550px] pr-4" src="../src/assets/images/corn.png"
-                        alt="imagen">
-                </picture>
+                <img loading="lazy" decoding="async" fetchpriority="high"
+                    class="z-10 rounded-lg w-[600px] h-auto hidden lg:block pr-4"
+                    srcset="../src/assets/images/corn.png">
+                <img loading="lazy" decoding="async" fetchpriority="high"
+                    class="z-10 rounded-lg lg:hidden h-auto w-[550px] pr-4"
+                    src="../src/assets/images/corn_optimized.png" alt="imagen">
             </div>
             <div
                 class="flex flex-col items-center justify-center text-lg lg:text-4xl font-extrabold text-gray-700 overflow-hidden">
@@ -738,7 +737,7 @@
             }
         }))
     </script>
-        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../src/slick/slick.min.js"></script>
