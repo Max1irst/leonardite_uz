@@ -669,7 +669,32 @@ const languages = {
                     </tr>
                 </table>`,
         "uz": "",
-    }
+    },
+    "laboratories-h-3": {
+        "en": 'OUR LABORATORIES',
+        "ru": 'НАШИ ЛАБОРАТОРИИ',
+        "uz": 'BIZNING LABORATORIYALARIMIZ',
+    },
+    "certificates-h-3": {
+        "en": 'OUR CERTIFICATES',
+        "ru": 'НАШИ СЕРТИФИКАТЫ',
+        "uz": 'BIZNING SERTIFIKATLARIMIZ',
+    },
+    "russia": {
+        "en": 'RUSSIA',
+        "ru": 'РОССИЯ',
+        "uz": 'ROSSIYA',
+    },
+    "canada": {
+        "en": 'CANADA',
+        "ru": 'КАНАДА',
+        "uz": 'KANADA',
+    },
+    "turkiye": {
+        "en": 'TURKIYE',
+        "ru": 'ТУРЦИЯ',
+        "uz": 'TURKIYA',
+    },
 }
 
 export default languages;
