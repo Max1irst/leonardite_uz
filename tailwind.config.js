@@ -1,11 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-img': "url('../src/assets/images/hero_field.png')",
-      },
       colors: {
         white: '#F3F3F3',
         'white-100': '#F8F2ED',

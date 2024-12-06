@@ -631,10 +631,6 @@ video {
   height: 100vh;
 }
 
-.max-h-\[550px\] {
-  max-height: 550px;
-}
-
 .min-h-\[301px\] {
   min-height: 301px;
 }
@@ -1194,8 +1190,8 @@ li::before{
     gap: 2rem;
   }
 
-  .md\:bg-\[url\(\'\.\.\/src\/assets\/images\/hero_field_cutted\.jpg\'\)\] {
-    background-image: url('../src/assets/images/hero_field_cutted.jpg');
+  .md\:bg-\[url\(\'\.\/src\/assets\/images\/hero_field_cutted\.jpg\'\)\] {
+    background-image: url('./src/assets/images/hero_field_cutted.jpg');
   }
 
   .md\:p-2 {
@@ -1235,12 +1231,12 @@ li::before{
     display: block;
   }
 
-  .lg\:hidden {
-    display: none;
+  .lg\:flex {
+    display: flex;
   }
 
-  .lg\:max-h-\[750px\] {
-    max-height: 750px;
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:w-\[300px\] {
@@ -1297,16 +1293,12 @@ li::before{
     padding-left: 5rem;
   }
 
-  .lg\:pt-8 {
-    padding-top: 2rem;
+  .lg\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .lg\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .lg\:pt-10 {
-    padding-top: 2.5rem;
   }
 
   .lg\:text-2xl {
@@ -1338,10 +1330,6 @@ li::before{
 @media (min-width: 1280px) {
   .xl\:block {
     display: block;
-  }
-
-  .xl\:flex {
-    display: flex;
   }
 
   .xl\:hidden {
