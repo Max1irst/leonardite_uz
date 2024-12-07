@@ -690,6 +690,11 @@ const languages = {
         "ru": 'КАНАДА',
         "uz": 'KANADA',
     },
+    "usa": {
+        "en": 'USA',
+        "ru": 'США',
+        "uz": 'AQSh',
+    },
     "turkiye": {
         "en": 'TURKIYE',
         "ru": 'ТУРЦИЯ',

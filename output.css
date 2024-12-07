@@ -583,6 +583,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1146,7 +1150,7 @@ li::before{
     text-align: center;
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 14px 8px;
+    padding: 10px 4px;
   }
   th {
     background: #B5B5B5;
@@ -1192,6 +1196,10 @@ li::before{
 
   .md\:bg-\[url\(\'\.\/src\/assets\/images\/hero_field_cutted\.jpg\'\)\] {
     background-image: url('./src/assets/images/hero_field_cutted.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\/src\/assets\/images\/icons\/leonardite_logo_white\.png\'\)\] {
+    background-image: url('./src/assets/images/icons/leonardite_logo_white.png');
   }
 
   .md\:p-2 {
